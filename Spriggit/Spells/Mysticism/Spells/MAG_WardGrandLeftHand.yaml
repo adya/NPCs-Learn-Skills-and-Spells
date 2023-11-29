@@ -1,0 +1,19 @@
+FormKey: 000857:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_WardGrandLeftHand
+Name:
+  TargetLanguage: English
+  Value: Grand Ward
+MenuDisplayObject: 0A0E7E:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 116
+Flags:
+- ManualCostCalc
+CastType: Concentration
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 0008A2:NPCs Learn Mysticism Spells.esp
+  Data:
+    Magnitude: 120

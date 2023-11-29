@@ -1,0 +1,21 @@
+FormKey: 00083C:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_LeechLifeLeftHand
+Name:
+  TargetLanguage: English
+  Value: Leech Life
+MenuDisplayObject: 10FEF4:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 209
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C2:Skyrim.esm
+Effects:
+- BaseEffect: 440E97:MysticismMagic.esp
+  Data:
+    Magnitude: 40
+    Duration: 1

@@ -1,0 +1,43 @@
+FormKey: 00088A:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_PoisonDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Poison Damage
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- ADA001:Update.esm
+Flags:
+- Hostile
+- Detrimental
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 4
+MagicSkill: Restoration
+ResistValue: PoisonResist
+CastingLight: 8E1D75:MysticismMagic.esp
+TaperWeight: 0.3
+HitShader: 8E1D74:MysticismMagic.esp
+MinimumSkillLevel: 75
+SpellmakingArea: 5
+SpellmakingCastingTime: 0.5
+TaperCurve: 2
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 8C886B:MysticismMagic.esp
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 8D2A6F:MysticismMagic.esp
+ImpactData: 96F9B9:MysticismMagic.esp
+SkillUsageMultiplier: 1
+DualCastArt: A11A39:MysticismMagic.esp
+DualCastScale: 1.25
+Sounds:
+- Sound: 9C5AF6:MysticismMagic.esp
+- Type: ConcentrationCastLoop
+  Sound: 9C5AF2:MysticismMagic.esp
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Poison damage per second. Poisoned targets take extra damage over time.

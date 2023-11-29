@@ -1,0 +1,35 @@
+FormKey: 000883:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_MarasEmbraceLeftHand
+Name:
+  TargetLanguage: English
+  Value: Mara's Embrace
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 220
+Flags:
+- ManualCostCalc
+- AreaEffectIgnoresLOS
+CastType: Concentration
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: 7D5824:MysticismMagic.esp
+  Data:
+    Magnitude: 50
+    Duration: 1
+- BaseEffect: 04250D:Skyrim.esm
+  Data:
+    Magnitude: 50
+    Duration: 1
+- BaseEffect: B18EAC:MysticismMagic.esp
+  Data:
+    Magnitude: 50
+    Area: 50
+    Duration: 1
+- BaseEffect: CCC63A:MysticismMagic.esp
+  Data:
+    Magnitude: 50
+    Area: 50
+    Duration: 1

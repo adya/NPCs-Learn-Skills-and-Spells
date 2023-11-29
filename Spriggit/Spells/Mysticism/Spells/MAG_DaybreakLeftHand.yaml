@@ -1,0 +1,21 @@
+FormKey: 00088E:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_DaybreakLeftHand
+Name:
+  TargetLanguage: English
+  Value: Daybreak
+MenuDisplayObject: 018F02:Dawnguard.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 160
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: 7BC310:MysticismMagic.esp
+  Data:
+    Magnitude: 40
+    Duration: 1

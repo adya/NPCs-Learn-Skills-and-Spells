@@ -1,0 +1,30 @@
+FormKey: 000848:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_BloodLanceLeftHand
+Name:
+  TargetLanguage: English
+  Value: Blood Lance
+MenuDisplayObject: 10FEF4:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 476
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C2:Skyrim.esm
+Effects:
+- BaseEffect: 1BDB19:MysticismMagic.esp
+  Data:
+    Magnitude: 80
+    Area: 20
+- BaseEffect: 320390:MysticismMagic.esp
+  Data:
+    Area: 20
+    Duration: 3
+- BaseEffect: 0153D3:Skyrim.esm
+  Data:
+    Magnitude: 0.25
+    Area: 20

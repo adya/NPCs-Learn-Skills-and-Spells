@@ -1,0 +1,35 @@
+FormKey: 000866:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_CloseGreaterWoundsLeftHand
+Name:
+  TargetLanguage: English
+  Value: Close Greater Wounds
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 125
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 27E23F:MysticismMagic.esp
+  Data:
+    Magnitude: 60
+    Duration: 1
+- BaseEffect: AD7190:MysticismMagic.esp
+  Data:
+    Magnitude: 60
+    Duration: 1
+- BaseEffect: B18EAD:MysticismMagic.esp
+  Data:
+    Magnitude: 60
+    Area: 50
+    Duration: 1
+- BaseEffect: CCC63B:MysticismMagic.esp
+  Data:
+    Magnitude: 60
+    Area: 50
+    Duration: 1

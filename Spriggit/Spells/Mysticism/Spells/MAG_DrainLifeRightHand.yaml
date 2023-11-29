@@ -1,0 +1,21 @@
+FormKey: 000821:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_DrainLifeRightHand
+Name:
+  TargetLanguage: English
+  Value: Drain Life
+MenuDisplayObject: 10FEF4:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 68
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 445FB6:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 1

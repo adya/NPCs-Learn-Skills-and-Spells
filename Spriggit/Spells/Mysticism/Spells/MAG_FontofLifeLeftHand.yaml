@@ -1,0 +1,96 @@
+FormKey: 000886:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_FontofLifeLeftHand
+Name:
+  TargetLanguage: English
+  Value: Font of Life
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 661
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: F3B489:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 120
+- BaseEffect: F3B486:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F3B487:MysticismMagic.esp
+  Data:
+    Duration: 300
+- BaseEffect: F3B48A:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F3B490:MysticismMagic.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3B482:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3B48B:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3B482:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3B48C:MysticismMagic.esp
+  Data:
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3B482:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3B493:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Area: 50
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3B482:MysticismMagic.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetShouldAttackConditionData
+      TargetNpc: 000014:Skyrim.esm
+- BaseEffect: F3B496:MysticismMagic.esp
+  Data:
+    Area: 50
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3B482:MysticismMagic.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetShouldAttackConditionData
+      TargetNpc: 000014:Skyrim.esm

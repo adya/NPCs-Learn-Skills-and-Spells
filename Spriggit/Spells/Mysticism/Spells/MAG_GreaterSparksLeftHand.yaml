@@ -1,0 +1,21 @@
+FormKey: 00081B:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_GreaterSparksLeftHand
+Name:
+  TargetLanguage: English
+  Value: Greater Sparks
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 60
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 1D7029:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 1

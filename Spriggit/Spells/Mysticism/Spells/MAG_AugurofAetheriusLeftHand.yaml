@@ -1,0 +1,25 @@
+FormKey: 000889:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_AugurofAetheriusLeftHand
+Name:
+  TargetLanguage: English
+  Value: Augur of Aetherius
+MenuDisplayObject: CB3131:MysticismMagic.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 630
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: 274023:MysticismMagic.esp
+  Data:
+    Magnitude: 100
+    Duration: 120
+- BaseEffect: CA8F2F:MysticismMagic.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120
