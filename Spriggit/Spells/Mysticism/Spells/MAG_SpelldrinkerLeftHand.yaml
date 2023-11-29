@@ -14,12 +14,6 @@ Flags:
 CastType: Concentration
 HalfCostPerk: 0C44CA:Skyrim.esm
 Effects:
-- BaseEffect: 3DB99B:MysticismMagic.esp
+- BaseEffect: 0008A3:NPCs Learn Mysticism Spells.esp
   Data:
     Magnitude: 150
-- BaseEffect: 78E9F3:MysticismMagic.esp
-  Data:
-    Magnitude: 375
-- BaseEffect: D40E26:MysticismMagic.esp
-  Data:
-    Magnitude: 0.01
