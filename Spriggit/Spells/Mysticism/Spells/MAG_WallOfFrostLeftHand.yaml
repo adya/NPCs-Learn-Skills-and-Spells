@@ -1,0 +1,24 @@
+FormKey: 10F142:Skyrim.esm
+EditorID: MAG_WallOfFrostLeftHand
+Name:
+  TargetLanguage: English
+  Value: Wall of Frost
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 189
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+Effects:
+- BaseEffect: 0008A7:NPCs Learn Mysticism Spells.esp
+  Data:
+    Magnitude: 40
+    Duration: 1
+- BaseEffect: 0B729D:Skyrim.esm
+  Data:
+    Magnitude: 50
+    Duration: 5

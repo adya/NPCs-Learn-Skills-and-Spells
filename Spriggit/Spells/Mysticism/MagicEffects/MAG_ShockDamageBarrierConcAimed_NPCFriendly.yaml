@@ -1,0 +1,43 @@
+FormKey: 0008AD:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ShockDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Shock Hazard
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 01CEAF:Skyrim.esm
+- 0A9B1F:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 3.75
+MagicSkill: Destruction
+ResistValue: ResistShock
+CastingLight: 057C68:Skyrim.esm
+HitShader: 057C67:Skyrim.esm
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+Projectile: 034190:Skyrim.esm
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 058E9B:Skyrim.esm
+ImpactData: 0592D0:Skyrim.esm
+SkillUsageMultiplier: 1.5
+DualCastArt: 0C08BE:MysticismMagic.esp
+DualCastScale: 1
+Sounds:
+- Sound: 03F208:Skyrim.esm
+- Type: Release
+  Sound: 03F206:Skyrim.esm
+- Type: ConcentrationCastLoop
+  Sound: 03F205:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Shock damage per second to Health and Magicka.
