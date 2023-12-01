@@ -12,6 +12,7 @@ BaseCost: 28
 Flags:
 - ManualCostCalc
 CastType: Concentration
+HalfCostPerk: 0C44C7:Skyrim.esm
 Effects:
 - BaseEffect: 05AD60:Skyrim.esm
   Data:
