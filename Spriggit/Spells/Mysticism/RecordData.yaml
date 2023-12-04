@@ -7,8 +7,8 @@ ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 158
-    NextFormID: 2222
+    NumRecords: 166
+    NextFormID: 2230
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm

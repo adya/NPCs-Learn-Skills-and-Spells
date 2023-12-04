@@ -1,0 +1,53 @@
+FormKey: 0008B2:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_DamageConstructFFAimedArea100_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Damage Construct
+MenuDisplayObject: 10A046:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- FXPersist
+- PowerAffectsDuration
+BaseCost: 25
+MagicSkill: Alteration
+ResistValue: ResistMagic
+CastingLight: 06EBC9:Skyrim.esm
+HitShader: 06DE84:Skyrim.esm
+MinimumSkillLevel: 90
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: ADC290:MysticismMagic.esp
+Explosion: 031047:Skyrim.esm
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 4ED38A:MysticismMagic.esp
+HitEffectArt: 06DE86:Skyrim.esm
+ImpactData: 91989D:MysticismMagic.esp
+SkillUsageMultiplier: 1
+DualCastScale: 1
+Sounds:
+- Sound: 03F37A:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Ready
+  Sound: 07C720:Skyrim.esm
+- Type: Release
+  Sound: 08196D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: 'Deals <mag> Magic damage per second for <dur> seconds to Dwarven automatons. '
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 01397A:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 028FDE:Dragonborn.esm
