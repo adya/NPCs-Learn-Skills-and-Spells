@@ -1,4 +1,4 @@
-FormKey: 0008A1:NPCs Learn Mysticism Spells.esp
+FormKey: 0008B6:NPCs Learn Mysticism Spells.esp
 EditorID: MAG_BaneoftheUndeadRightHand
 Name:
   TargetLanguage: English
@@ -30,7 +30,4 @@ Effects:
   Data:
     Magnitude: 0.25
     Area: 60
-    Duration: 1
-- BaseEffect: BDE626:MysticismMagic.esp
-  Data:
     Duration: 1
