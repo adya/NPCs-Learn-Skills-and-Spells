@@ -17,7 +17,7 @@ CastType: FireAndForget
 TargetType: Aimed
 HalfCostPerk: 0C44BA:Skyrim.esm
 Effects:
-- BaseEffect: 0008B2:NPCs Learn Mysticism Spells.esp
+- BaseEffect: DB55D3:MysticismMagic.esp
   Data:
     Magnitude: 40
     Area: 20
