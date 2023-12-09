@@ -5,7 +5,6 @@ Name:
   Value: Fortify Armor Rating
 MenuDisplayObject: 109AC2:Skyrim.esm
 Keywords:
-- 01EA72:Skyrim.esm
 - 0A9B1E:Skyrim.esm
 Flags:
 - Recover
@@ -16,16 +15,11 @@ Flags:
 - PowerAffectsDuration
 BaseCost: 0.12
 MagicSkill: Alteration
-CastingLight: A5D962:MysticismMagic.esp
-HitShader: 056AC9:Skyrim.esm
 SpellmakingCastingTime: 0.5
 Archetype:
   MutagenObjectType: MagicEffectPeakValueModArchetype
   ActorValue: DamageResist
-  Association: 01EA72:Skyrim.esm
 CastType: FireAndForget
-CastingArt: 056AC7:Skyrim.esm
-HitEffectArt: 056AC8:Skyrim.esm
 SkillUsageMultiplier: 1
 DualCastScale: 1
 Sounds:

@@ -1,14 +1,14 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Skyrim
-  Version: 0.10.0
+  Version: 0.11.0
 ModKey: NPCs Learn Mysticism Spells.esp
 GameRelease: SkyrimSE
 ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 166
-    NextFormID: 2231
+    NumRecords: 174
+    NextFormID: 2239
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm

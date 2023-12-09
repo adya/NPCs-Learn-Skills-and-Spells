@@ -1,0 +1,25 @@
+FormKey: 0008BA:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_LightningShieldLeftHand
+Name:
+  TargetLanguage: English
+  Value: Lightning Shield
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 644
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44BA:Skyrim.esm
+Effects:
+- BaseEffect: 292662:MysticismMagic.esp
+  Data:
+    Magnitude: 75
+    Duration: 120
+- BaseEffect: 0008B4:NPCs Learn Mysticism Spells.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120
