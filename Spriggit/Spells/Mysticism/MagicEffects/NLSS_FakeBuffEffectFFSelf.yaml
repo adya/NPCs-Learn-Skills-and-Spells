@@ -8,11 +8,9 @@ Flags:
 - Recover
 - NoHitEvent
 - NoArea
-- FXPersist
 - HideInUI
 - PowerAffectsDuration
 - NoHitEffect
-SpellmakingCastingTime: 0.5
 Archetype:
   MutagenObjectType: MagicEffectPeakValueModArchetype
   ActorValue: DamageResist
