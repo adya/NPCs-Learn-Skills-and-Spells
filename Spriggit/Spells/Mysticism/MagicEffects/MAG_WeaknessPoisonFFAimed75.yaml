@@ -1,0 +1,44 @@
+FormKey: 29267E:MysticismMagic.esp
+EditorID: MAG_WeaknessPoisonFFAimed75
+Name:
+  TargetLanguage: English
+  Value: Weakness to Poison
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 868555:MysticismMagic.esp
+Flags:
+- Hostile
+- Recover
+- Detrimental
+- NoArea
+- FXPersist
+- NoRecast
+- PowerAffectsDuration
+- NoDeathDispel
+BaseCost: 0.5
+MagicSkill: Alteration
+CastingLight: 8E1D75:MysticismMagic.esp
+HitShader: 8E1D74:MysticismMagic.esp
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: PoisonResist
+Projectile: 8E6E77:MysticismMagic.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 8D2A6F:MysticismMagic.esp
+ImpactData: 8D7B72:MysticismMagic.esp
+SkillUsageMultiplier: 1
+DualCastScale: 1.25
+Sounds:
+- Sound: 9C5AF6:MysticismMagic.esp
+- Type: Charge
+  Sound: 9C5AF3:MysticismMagic.esp
+- Type: Ready
+  Sound: 9C5AF7:MysticismMagic.esp
+- Type: Release
+  Sound: 9C5AF0:MysticismMagic.esp
+Description:
+  TargetLanguage: English
+  Value: Reduces target Poison Resistance by <mag>% for <dur> seconds.
