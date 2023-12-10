@@ -15,7 +15,7 @@ ChargeTime: 1
 CastType: FireAndForget
 HalfCostPerk: 0C44BA:Skyrim.esm
 Effects:
-- BaseEffect: 0008AF:NPCs Learn Mysticism Spells.esp
+- BaseEffect: 0CDB75:Skyrim.esm
   Data:
     Magnitude: 200
     Duration: 120
