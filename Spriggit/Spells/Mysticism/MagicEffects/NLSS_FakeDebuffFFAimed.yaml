@@ -12,8 +12,8 @@ Flags:
 - NoArea
 - HideInUI
 Archetype:
-  MutagenObjectType: MagicEffectPeakValueModArchetype
-  ActorValue: Health
+  MutagenObjectType: MagicEffectArchetype
+  Type: Stagger
 CastType: FireAndForget
 TargetType: Aimed
 SkillUsageMultiplier: 1

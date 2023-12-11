@@ -11,7 +11,7 @@ Description:
 BaseCost: 345
 Flags:
 - ManualCostCalc
-ChargeTime: 4
+ChargeTime: 0.5
 CastType: FireAndForget
 TargetType: Aimed
 HalfCostPerk: 0C44B9:Skyrim.esm
