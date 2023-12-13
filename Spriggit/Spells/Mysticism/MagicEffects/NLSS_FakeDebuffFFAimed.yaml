@@ -20,4 +20,4 @@ SkillUsageMultiplier: 1
 DualCastScale: 1
 Description:
   TargetLanguage: English
-  Value: Effect that is used to make NPCs recognize other detrimental spells as usable.
+  Value: 'Effect that is used to make NPCs recognize other detrimental spells as usable. NOTE: Only one debuff spell will be casted at a time.'
