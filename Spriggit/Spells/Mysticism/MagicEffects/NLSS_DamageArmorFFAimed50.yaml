@@ -1,0 +1,44 @@
+FormKey: 0008CD:NPCs Learn Mysticism Spells.esp
+EditorID: NLSS_DamageArmorFFAimed50
+Name:
+  TargetLanguage: English
+  Value: Damage Armor
+MenuDisplayObject: 826845:MysticismMagic.esp
+Keywords:
+- A9A571:MysticismMagic.esp
+Flags:
+- Hostile
+- Recover
+- Detrimental
+- DispelWithKeywords
+- FXPersist
+- PowerAffectsDuration
+BaseCost: 0.15
+MagicSkill: Alteration
+CastingLight: 02016B:Skyrim.esm
+HitShader: 7C1413:MysticismMagic.esp
+MinimumSkillLevel: 50
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: DamageResist
+  Association: A9A571:MysticismMagic.esp
+Projectile: 7C6514:MysticismMagic.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 7C1412:MysticismMagic.esp
+HitEffectArt: 7C6515:MysticismMagic.esp
+ImpactData: 91E9A0:MysticismMagic.esp
+SkillUsageMultiplier: 1
+DualCastScale: 1.25
+Sounds:
+- Sound: 03F37A:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Ready
+  Sound: 07C720:Skyrim.esm
+- Type: Release
+  Sound: 08196D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Reduces Armor Rating by <mag> for <dur> seconds.

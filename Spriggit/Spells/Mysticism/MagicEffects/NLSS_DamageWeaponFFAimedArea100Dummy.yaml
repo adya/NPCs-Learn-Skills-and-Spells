@@ -1,0 +1,46 @@
+FormKey: 0008CB:NPCs Learn Mysticism Spells.esp
+EditorID: NLSS_DamageWeaponFFAimedArea100Dummy
+Name:
+  TargetLanguage: English
+  Value: Damage Weapon
+MenuDisplayObject: 826845:MysticismMagic.esp
+Keywords:
+- A9A571:MysticismMagic.esp
+- C806B0:MysticismMagic.esp
+Flags:
+- Hostile
+- Recover
+- Detrimental
+- DispelWithKeywords
+- FXPersist
+- PowerAffectsDuration
+BaseCost: 1.25
+MagicSkill: Alteration
+CastingLight: 02016B:Skyrim.esm
+HitShader: 7C1413:MysticismMagic.esp
+MinimumSkillLevel: 100
+SpellmakingArea: 20
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+Projectile: C6C2AE:MysticismMagic.esp
+Explosion: 7CB616:MysticismMagic.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 7DA928:MysticismMagic.esp
+HitEffectArt: 7C6515:MysticismMagic.esp
+ImpactData: 91E9A0:MysticismMagic.esp
+SkillUsageMultiplier: 1
+DualCastScale: 1.25
+Sounds:
+- Sound: 03F37A:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Ready
+  Sound: 07C720:Skyrim.esm
+- Type: Release
+  Sound: 08196D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Reduces weapon damage by <mag>% for <dur> seconds.
