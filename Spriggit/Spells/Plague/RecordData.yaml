@@ -1,0 +1,21 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.13.0
+ModKey: NPCs Learn Plague Spells.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    NumRecords: 5
+    NextFormID: 2054
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: Plague - Poison Spells.esp
+    FileSize: 0
