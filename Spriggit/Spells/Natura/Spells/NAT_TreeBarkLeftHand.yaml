@@ -1,0 +1,26 @@
+FormKey: 000801:NPCs Learn Natura Spells.esp
+EditorID: NAT_TreeBarkLeftHand
+Name:
+  TargetLanguage: English
+  Value: Tree Bark
+Keywords:
+- 000E5C:Natura.esp
+MenuDisplayObject: 000871:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 159
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44B7:Skyrim.esm
+Effects:
+- BaseEffect: 00086E:Natura.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120
+- BaseEffect: 000F8B:Natura.esp
+  Data:
+    Duration: 120
