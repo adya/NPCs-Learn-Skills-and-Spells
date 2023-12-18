@@ -7,7 +7,7 @@ ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 193
+    NumRecords: 189
     NextFormID: 2255
   Author: ''
   MasterReferences:
@@ -20,4 +20,6 @@ ModHeader:
   - Master: Dragonborn.esm
     FileSize: 0
   - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: NPCs Learn Spells.esl
     FileSize: 0

@@ -1,0 +1,17 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.13.0
+ModKey: NPCs Learn Spells.esl
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Master
+  - Light
+  Stats:
+    NumRecords: 5
+    NextFormID: 2051
+  Author: sasnikol
+  Description: A base plugin that contains multiple shared spells/effects that are used to make NPCs do previously unseen things :)
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
