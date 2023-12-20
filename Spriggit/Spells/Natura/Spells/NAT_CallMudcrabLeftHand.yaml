@@ -1,0 +1,23 @@
+FormKey: 000809:NPCs Learn Natura Spells.esp
+EditorID: NAT_CallMudcrabLeftHand
+Name:
+  TargetLanguage: English
+  Value: Call Mudcrab
+MenuDisplayObject: 00094B:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 106
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0F2CA7:Skyrim.esm
+Effects:
+- BaseEffect: 000967:Natura.esp
+  Data:
+    Duration: 60

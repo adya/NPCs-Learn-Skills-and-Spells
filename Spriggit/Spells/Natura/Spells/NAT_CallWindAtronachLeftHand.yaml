@@ -1,0 +1,39 @@
+FormKey: 000819:NPCs Learn Natura Spells.esp
+EditorID: NAT_CallWindAtronachLeftHand
+Name:
+  TargetLanguage: English
+  Value: Call Wind Atronach
+MenuDisplayObject: 00094B:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 383
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 000CC4:Natura.esp
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0CB41A:Skyrim.esm
+- BaseEffect: 000CC5:Natura.esp
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0CB41A:Skyrim.esm
+    ComparisonValue: 1

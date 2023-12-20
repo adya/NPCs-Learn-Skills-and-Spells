@@ -1,0 +1,23 @@
+FormKey: 000815:NPCs Learn Natura Spells.esp
+EditorID: NAT_CallChaurusReaperLeftHand
+Name:
+  TargetLanguage: English
+  Value: Call Chaurus Reaper
+MenuDisplayObject: 00094B:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 367
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 00096E:Natura.esp
+  Data:
+    Duration: 60

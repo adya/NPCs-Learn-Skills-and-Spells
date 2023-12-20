@@ -1,0 +1,23 @@
+FormKey: 00080A:NPCs Learn Natura Spells.esp
+EditorID: NAT_CallWolfLeftHand
+Name:
+  TargetLanguage: English
+  Value: Call Wolf
+MenuDisplayObject: 00094B:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 106
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0F2CA7:Skyrim.esm
+Effects:
+- BaseEffect: 000968:Natura.esp
+  Data:
+    Duration: 60
