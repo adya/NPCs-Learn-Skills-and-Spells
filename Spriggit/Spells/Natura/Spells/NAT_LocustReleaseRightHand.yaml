@@ -1,0 +1,39 @@
+FormKey: 000835:NPCs Learn Natura Spells.esp
+EditorID: NAT_LocustReleaseRightHand
+Name:
+  TargetLanguage: English
+  Value: Locust Release
+MenuDisplayObject: 0008FB:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 697
+Flags:
+- ManualCostCalc
+- AreaEffectIgnoresLOS
+ChargeTime: 1.5
+CastType: FireAndForget
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: 000D33:Natura.esp
+  Data:
+    Magnitude: 5
+    Area: 60
+    Duration: 10
+- BaseEffect: 000D34:Natura.esp
+  Data:
+    Magnitude: 10
+    Duration: 10
+- BaseEffect: 000D32:Natura.esp
+  Data:
+    Magnitude: 2.5
+    Area: 40
+    Duration: 10
+- BaseEffect: 000D31:Natura.esp
+  Data:
+    Magnitude: 2.5
+    Area: 20
+    Duration: 10
+- BaseEffect: 000B89:Natura.esp
+  Data: {}
