@@ -7,7 +7,10 @@ MenuDisplayObject: 0008A3:Natura.esp
 EquipmentType: 013F43:Skyrim.esm
 Description:
   TargetLanguage: English
-  Value: ''
+  Value: >-
+    This spell is not considered to be healing, but rather a kind of "mage armor", since it provides deferred healing and does not fall under regular healing spells category for NPCs. 
+
+    Meaning they'll always prefer other more powerful healing spells based on weaker magnitude of this one.
 BaseCost: 535
 Flags:
 - ManualCostCalc
@@ -15,9 +18,9 @@ ChargeTime: 1
 CastType: FireAndForget
 HalfCostPerk: 0C44CA:Skyrim.esm
 Effects:
-- BaseEffect: 000883:Natura.esp
+- BaseEffect: 000800:NPCs Learn Spells.esl
   Data:
-    Magnitude: 25
+    Magnitude: 0.01
     Duration: 120
 - BaseEffect: 000884:Natura.esp
   Data:

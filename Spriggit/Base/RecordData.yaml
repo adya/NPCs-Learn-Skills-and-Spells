@@ -9,7 +9,7 @@ ModHeader:
   - Light
   Stats:
     NumRecords: 5
-    NextFormID: 2051
+    NextFormID: 2053
   Author: sasnikol
   Description: A base plugin that contains multiple shared spells/effects that are used to make NPCs do previously unseen things :)
   MasterReferences:

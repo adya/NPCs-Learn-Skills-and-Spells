@@ -1,0 +1,44 @@
+FormKey: 00083B:NPCs Learn Natura Spells.esp
+EditorID: NAT_PoisonLocustDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Poison Damage
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- ADA001:Update.esm
+- 000E5B:Natura.esp
+Flags:
+- Hostile
+- Detrimental
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 4
+MagicSkill: Restoration
+ResistValue: PoisonResist
+CastingLight: 0008EA:Natura.esp
+TaperWeight: 0.3
+HitShader: 000911:Natura.esp
+MinimumSkillLevel: 75
+SpellmakingArea: 5
+SpellmakingCastingTime: 0.5
+TaperCurve: 2
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 0008EF:Natura.esp
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 0008F9:Natura.esp
+ImpactData: 000D55:Natura.esp
+SkillUsageMultiplier: 1
+DualCastArt: 000D4F:Natura.esp
+DualCastScale: 1.25
+Sounds:
+- Sound: 000915:Natura.esp
+- Type: ConcentrationCastLoop
+  Sound: 000904:Natura.esp
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Poison damage per second to Health and Stamina.
