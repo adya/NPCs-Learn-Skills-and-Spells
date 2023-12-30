@@ -1,0 +1,36 @@
+FormKey: 000853:NPCs Learn Natura Spells.esp
+EditorID: NAT_WindBladeRightHand
+Name:
+  TargetLanguage: English
+  Value: Wind Blade
+MenuDisplayObject: 000B64:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 145
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
+Effects:
+- BaseEffect: 000B6A:Natura.esp
+  Data:
+    Magnitude: 40
+    Duration: 1
+- BaseEffect: 000BA4:Natura.esp
+  Data:
+    Magnitude: 0.25
+    Area: 10
+    Duration: 1
+- BaseEffect: 0153D3:Skyrim.esm
+  Data:
+    Magnitude: 0.25
+    Area: 10
+    Duration: 1
+- BaseEffect: 000CF4:Natura.esp
+  Data:
+    Area: 10
+    Duration: 1

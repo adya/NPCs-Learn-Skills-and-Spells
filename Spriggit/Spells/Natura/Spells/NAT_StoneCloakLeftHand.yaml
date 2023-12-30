@@ -1,0 +1,21 @@
+FormKey: 00084B:NPCs Learn Natura Spells.esp
+EditorID: NAT_StoneCloakLeftHand
+Name:
+  TargetLanguage: English
+  Value: Stone Cloak
+MenuDisplayObject: 000AB3:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 282
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 000B0C:Natura.esp
+  Data:
+    Magnitude: 8
+    Duration: 60

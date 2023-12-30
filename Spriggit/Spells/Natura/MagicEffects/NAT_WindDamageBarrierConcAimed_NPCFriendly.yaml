@@ -1,0 +1,47 @@
+FormKey: 00086A:NPCs Learn Natura Spells.esp
+EditorID: NAT_WindDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Wind Barrier
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- EA6002:Update.esm
+- 000B36:Natura.esp
+- 000E59:Natura.esp
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 3.75
+MagicSkill: Destruction
+CastingLight: 000F89:Natura.esp
+HitShader: 000B65:Natura.esp
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 000B5E:Natura.esp
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 000B63:Natura.esp
+ImpactData: 000DAE:Natura.esp
+SkillUsageMultiplier: 1.5
+DualCastArt: 000DCE:Natura.esp
+DualCastScale: 1
+Sounds:
+- Sound: 000B77:Natura.esp
+- Type: ConcentrationCastLoop
+  Sound: 000B7B:Natura.esp
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Wind damage and has a chance to stagger enemies.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    Race: 000CAC:Natura.esp

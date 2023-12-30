@@ -1,0 +1,31 @@
+FormKey: 000852:NPCs Learn Natura Spells.esp
+EditorID: NAT_GreaterWaterSprayRightHand
+Name:
+  TargetLanguage: English
+  Value: Greater Water Spray
+MenuDisplayObject: 000B1E:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 52
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 000DA8:Natura.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: 000B4E:Natura.esp
+  Data:
+    Magnitude: 0.25
+    Duration: 1
+- BaseEffect: 000CE2:Natura.esp
+  Data:
+    Duration: 10
+- BaseEffect: 000CF8:Natura.esp
+  Data:
+    Duration: 10

@@ -1,0 +1,35 @@
+FormKey: 00085E:NPCs Learn Natura Spells.esp
+EditorID: NAT_WindGraspRightHand
+Name:
+  TargetLanguage: English
+  Value: Wind Grasp
+MenuDisplayObject: 000B64:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 272
+Flags:
+- ManualCostCalc
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
+Effects:
+- BaseEffect: 000C28:Natura.esp
+  Data:
+    Magnitude: 90
+    Area: 3
+- BaseEffect: 000BA3:Natura.esp
+  Data:
+    Magnitude: 0.25
+    Area: 3
+    Duration: 1
+- BaseEffect: 0153D3:Skyrim.esm
+  Data:
+    Magnitude: 0.25
+    Area: 3
+    Duration: 1
+- BaseEffect: 000CF4:Natura.esp
+  Data:
+    Duration: 1

@@ -1,0 +1,31 @@
+FormKey: 00084C:NPCs Learn Natura Spells.esp
+EditorID: NAT_StoneHandRightHand
+Name:
+  TargetLanguage: English
+  Value: Stone Hand
+MenuDisplayObject: 000AB3:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 139
+Flags:
+- ManualCostCalc
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 000C1F:Natura.esp
+  Data:
+    Magnitude: 60
+    Area: 1
+    Duration: 1
+- BaseEffect: 0153D3:Skyrim.esm
+  Data:
+    Magnitude: 0.25
+    Area: 1
+    Duration: 1
+- BaseEffect: 000C74:Natura.esp
+  Data:
+    Duration: 5
