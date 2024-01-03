@@ -1,0 +1,40 @@
+FormKey: 00086F:NPCs Learn Natura Spells.esp
+EditorID: NAT_WildHuntLeftHand
+Name:
+  TargetLanguage: English
+  Value: Wild Hunt
+Keywords:
+- 000E52:Natura.esp
+MenuDisplayObject: 000BC9:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 477
+Flags:
+- ManualCostCalc
+- AreaEffectIgnoresLOS
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C5:Skyrim.esm
+Effects:
+- BaseEffect: 000879:NPCs Learn Natura Spells.esp
+  Data:
+    Magnitude: 20
+    Area: 50
+    Duration: 30
+- BaseEffect: 000BDB:Natura.esp
+  Data:
+    Magnitude: 0.1
+    Area: 50
+    Duration: 30
+- BaseEffect: 000C99:Natura.esp
+  Data:
+    Duration: 30
+- BaseEffect: 000E5D:Natura.esp
+  Data: {}
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30

@@ -1,14 +1,14 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Skyrim
-  Version: 0.13.0
+  Version: 0.14.0
 ModKey: NPCs Learn Natura Spells.esp
 GameRelease: SkyrimSE
 ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 107
-    NextFormID: 2155
+    NumRecords: 120
+    NextFormID: 2171
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm
