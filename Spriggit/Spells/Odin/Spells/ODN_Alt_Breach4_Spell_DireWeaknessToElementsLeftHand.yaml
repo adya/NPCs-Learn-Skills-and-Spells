@@ -1,0 +1,51 @@
+FormKey: 000809:NPCs Learn Odin Spells.esp
+EditorID: ODN_Alt_Breach4_Spell_DireWeaknessToElementsLeftHand
+Name:
+  TargetLanguage: English
+  Value: Dire Vulnerability
+MenuDisplayObject: 00856C:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 618
+Flags:
+- ManualCostCalc
+- AreaEffectIgnoresLOS
+- IgnoreResistance
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44B9:Skyrim.esm
+Effects:
+- BaseEffect: 293D0D:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50
+    Area: 15
+    Duration: 30
+- BaseEffect: 17306E:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50
+    Area: 15
+    Duration: 30
+- BaseEffect: 173072:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50
+    Area: 15
+    Duration: 30
+- BaseEffect: 173073:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50
+    Area: 15
+    Duration: 30
+- BaseEffect: 275690:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50
+    Area: 15
+    Duration: 30
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Area: 15
+    Duration: 30

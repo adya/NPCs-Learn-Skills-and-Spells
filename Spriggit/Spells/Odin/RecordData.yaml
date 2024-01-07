@@ -1,0 +1,21 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.14.0
+ModKey: NPCs Learn Odin Spells.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    NumRecords: 12
+    NextFormID: 2061
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: Odin - Skyrim Magic Overhaul.esp
+    FileSize: 0
+  - Master: NPCs Learn Spells.esl
+    FileSize: 0
