@@ -1,0 +1,41 @@
+FormKey: 00082A:NPCs Learn Natura Spells.esp
+EditorID: NAT_DeadlyLocustSprayRightHand
+Name:
+  TargetLanguage: English
+  Value: Deadly Locust Spray
+MenuDisplayObject: 0008FB:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 61
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 000D30:Natura.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: D1D4D3:Adamant.esp
+  Data:
+    Magnitude: 10
+    Duration: 1
+- BaseEffect: D1D4D4:Adamant.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: D1D4D5:Adamant.esp
+  Data:
+    Magnitude: 10
+    Duration: 1
+- BaseEffect: D1D4D6:Adamant.esp
+  Data:
+    Magnitude: 15
+    Duration: 1
+- BaseEffect: D1D4D7:Adamant.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
