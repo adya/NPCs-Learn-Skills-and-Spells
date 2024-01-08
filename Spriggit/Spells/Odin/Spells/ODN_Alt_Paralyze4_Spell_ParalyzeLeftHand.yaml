@@ -15,7 +15,7 @@ HalfCostPerk: 0C44B9:Skyrim.esm
 Effects:
 - BaseEffect: 01EA6E:Skyrim.esm
   Data:
-    Duration: 5
+    Duration: 3
 - BaseEffect: 0A44C0:Skyrim.esm
   Data:
     Magnitude: 100
@@ -26,3 +26,7 @@ Effects:
       MutagenObjectType: HasKeywordConditionData
       Keyword: 035D59:Skyrim.esm
     ComparisonValue: 1
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30

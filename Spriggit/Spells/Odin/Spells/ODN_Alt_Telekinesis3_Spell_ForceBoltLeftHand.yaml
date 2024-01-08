@@ -17,7 +17,11 @@ Effects:
 - BaseEffect: 293D27:Odin - Skyrim Magic Overhaul.esp
   Data:
     Magnitude: 0.75
-    Duration: 5
+    Duration: 3
 - BaseEffect: 293D26:Odin - Skyrim Magic Overhaul.esp
   Data:
-    Duration: 5
+    Duration: 3
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30
