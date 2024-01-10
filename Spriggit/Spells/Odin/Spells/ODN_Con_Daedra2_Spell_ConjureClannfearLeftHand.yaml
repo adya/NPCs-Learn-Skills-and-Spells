@@ -1,0 +1,38 @@
+FormKey: 00080F:NPCs Learn Odin Spells.esp
+EditorID: ODN_Con_Daedra2_Spell_ConjureClannfearLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Clannfear
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 136
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BB:Skyrim.esm
+Effects:
+- BaseEffect: 18C585:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0CB41A:Skyrim.esm
+- BaseEffect: 18C58B:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0CB41A:Skyrim.esm
+    ComparisonValue: 1

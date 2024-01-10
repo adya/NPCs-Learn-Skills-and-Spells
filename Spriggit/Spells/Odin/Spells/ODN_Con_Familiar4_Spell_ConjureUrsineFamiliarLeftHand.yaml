@@ -1,0 +1,22 @@
+FormKey: 000821:NPCs Learn Odin Spells.esp
+EditorID: ODN_Con_Familiar4_Spell_ConjureUrsineFamiliarLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Ursine Familiar
+MenuDisplayObject: 11F238:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 344
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 1A5AD4:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Duration: 60
