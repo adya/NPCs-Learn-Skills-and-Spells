@@ -8,7 +8,7 @@ ModHeader:
   - Light
   Stats:
     NumRecords: 34
-    NextFormID: 2083
+    NextFormID: 2084
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm
