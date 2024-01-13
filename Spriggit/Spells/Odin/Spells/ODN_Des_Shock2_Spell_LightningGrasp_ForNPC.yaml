@@ -1,0 +1,22 @@
+FormKey: 00082F:NPCs Learn Odin Spells.esp
+EditorID: ODN_Des_Shock2_Spell_LightningGrasp_ForNPC
+Name:
+  TargetLanguage: English
+  Value: Lightning Grasp
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 17
+Flags:
+- AreaEffectIgnoresLOS
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44BF:Skyrim.esm
+Effects:
+- BaseEffect: 1E279C:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 15
+    Area: 3
+    Duration: 1

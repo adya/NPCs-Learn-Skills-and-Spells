@@ -1,5 +1,5 @@
 FormKey: 000825:NPCs Learn Odin Spells.esp
-EditorID: Frostbite_NPCFriendly
+EditorID: Frostbite_ForNPC
 Name:
   TargetLanguage: English
   Value: Frostbite
@@ -19,5 +19,5 @@ Effects:
     Duration: 1
 - BaseEffect: 0B729D:Skyrim.esm
   Data:
-    Magnitude: 50
+    Magnitude: 15
     Duration: 4

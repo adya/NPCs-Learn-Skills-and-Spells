@@ -1,20 +1,20 @@
-FormKey: 07D98F:Skyrim.esm
-EditorID: FireboltLeftHand
+FormKey: 000829:NPCs Learn Odin Spells.esp
+EditorID: LightningBolt_ForNPC
 Name:
   TargetLanguage: English
-  Value: Firebolt
-MenuDisplayObject: 04E264:Skyrim.esm
-EquipmentType: 013F43:Skyrim.esm
+  Value: Lightning Bolt
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 41
+BaseCost: 51
 ChargeTime: 0.5
 CastType: FireAndForget
 TargetType: Aimed
 HalfCostPerk: 0C44BF:Skyrim.esm
 Effects:
-- BaseEffect: 012F03:Skyrim.esm
+- BaseEffect: 01CEA8:Skyrim.esm
   Data:
     Magnitude: 25
 - BaseEffect: 0153D3:Skyrim.esm
