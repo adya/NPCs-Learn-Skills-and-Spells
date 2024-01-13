@@ -9,7 +9,8 @@ Description:
   TargetLanguage: English
   Value: ''
 BaseCost: 114
-ChargeTime: 0.5
+Flags:
+- NoAbsorbOrReflect
 CastType: FireAndForget
 TargetType: TargetActor
 HalfCostPerk: 0C44BB:Skyrim.esm

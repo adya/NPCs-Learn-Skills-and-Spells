@@ -1,0 +1,21 @@
+FormKey: 000844:NPCs Learn Odin Spells.esp
+EditorID: ODN_Des_Frost3_Spell_FreezingStrikesLeftHand
+Name:
+  TargetLanguage: English
+  Value: Freezing Strikes
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 169
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 26B43D:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 15
+    Duration: 60

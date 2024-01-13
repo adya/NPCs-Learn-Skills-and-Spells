@@ -1,0 +1,21 @@
+FormKey: 000843:NPCs Learn Odin Spells.esp
+EditorID: ODN_Des_Fire3_Spell_BlazingStrikesLeftHand
+Name:
+  TargetLanguage: English
+  Value: Blazing Strikes
+MenuDisplayObject: 04E264:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 155
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 26B43A:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 15
+    Duration: 60

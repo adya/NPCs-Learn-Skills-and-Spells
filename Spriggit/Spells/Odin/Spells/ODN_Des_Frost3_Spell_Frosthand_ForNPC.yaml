@@ -1,0 +1,27 @@
+FormKey: 00083A:NPCs Learn Odin Spells.esp
+EditorID: ODN_Des_Frost3_Spell_Frosthand_ForNPC
+Name:
+  TargetLanguage: English
+  Value: Frosthand
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 135
+Flags:
+- AreaEffectIgnoresLOS
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 2A303F:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 60
+- BaseEffect: 07C843:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 0.5
+- BaseEffect: 0153D3:Skyrim.esm
+  Data:
+    Magnitude: 0.25

@@ -17,6 +17,3 @@ Effects:
 - BaseEffect: 01CEA8:Skyrim.esm
   Data:
     Magnitude: 25
-- BaseEffect: 0153D3:Skyrim.esm
-  Data:
-    Magnitude: 0.25
