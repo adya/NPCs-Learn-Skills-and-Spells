@@ -1,0 +1,18 @@
+FormKey: 00084F:NPCs Learn Odin Spells.esp
+EditorID: ODN_Des_Fire4_Spell_WildfireRightHand
+Name:
+  TargetLanguage: English
+  Value: Wildfire
+MenuDisplayObject: 04E264:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 118
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
+Effects:
+- BaseEffect: 1D858A:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50

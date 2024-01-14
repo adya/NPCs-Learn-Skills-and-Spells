@@ -1,0 +1,23 @@
+FormKey: 000852:NPCs Learn Odin Spells.esp
+EditorID: ODN_Des_Frost4_Spell_ArcticFrost_ForNPC
+Name:
+  TargetLanguage: English
+  Value: Arctic Frost
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 133
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
+Effects:
+- BaseEffect: 1E78AC:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50
+    Duration: 1
+- BaseEffect: 0B729D:Skyrim.esm
+  Data:
+    Magnitude: 25
+    Duration: 4

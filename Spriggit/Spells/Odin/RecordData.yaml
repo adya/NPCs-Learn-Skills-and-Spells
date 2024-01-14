@@ -1,14 +1,14 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Skyrim
-  Version: 0.14.0
+  Version: 0.16.0
 ModKey: NPCs Learn Odin Spells.esp
 GameRelease: SkyrimSE
 ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 82
-    NextFormID: 2118
+    NumRecords: 103
+    NextFormID: 2133
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm

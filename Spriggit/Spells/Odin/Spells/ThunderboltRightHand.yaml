@@ -1,0 +1,19 @@
+FormKey: 10F7F8:Skyrim.esm
+EditorID: ThunderboltRightHand
+Name:
+  TargetLanguage: English
+  Value: Thunderbolt
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 198
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
+Effects:
+- BaseEffect: 10F7EF:Skyrim.esm
+  Data:
+    Magnitude: 60

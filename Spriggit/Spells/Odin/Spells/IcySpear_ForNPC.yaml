@@ -1,0 +1,26 @@
+FormKey: 000847:NPCs Learn Odin Spells.esp
+EditorID: IcySpear_ForNPC
+Name:
+  TargetLanguage: English
+  Value: Icy Spear
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 189
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
+Effects:
+- BaseEffect: 10F7F0:Skyrim.esm
+  Data:
+    Magnitude: 60
+- BaseEffect: 0153D3:Skyrim.esm
+  Data:
+    Magnitude: 0.25
+- BaseEffect: 0B729F:Skyrim.esm
+  Data:
+    Magnitude: 25
+    Duration: 3
