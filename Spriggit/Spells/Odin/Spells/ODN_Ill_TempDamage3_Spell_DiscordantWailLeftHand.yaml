@@ -1,0 +1,27 @@
+FormKey: 000859:NPCs Learn Odin Spells.esp
+EditorID: ODN_Ill_TempDamage3_Spell_DiscordantWailLeftHand
+Name:
+  TargetLanguage: English
+  Value: Discordant Wail
+MenuDisplayObject: 11D198:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 160
+Flags:
+- AreaEffectIgnoresLOS
+- IgnoreResistance
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C4:Skyrim.esm
+Effects:
+- BaseEffect: 23386D:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Duration: 20
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 60
