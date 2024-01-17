@@ -1,6 +1,6 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Skyrim
-  Version: 0.10.0
+  Version: 0.16.0
 ModKey: NPCs Learn Vanilla Spells.esp
 GameRelease: SkyrimSE
 ModHeader:

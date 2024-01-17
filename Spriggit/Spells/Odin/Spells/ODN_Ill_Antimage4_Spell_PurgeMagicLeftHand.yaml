@@ -16,10 +16,10 @@ CastType: FireAndForget
 TargetType: Aimed
 HalfCostPerk: 0C44C5:Skyrim.esm
 Effects:
-- BaseEffect: 27569B:Odin - Skyrim Magic Overhaul.esp
-  Data:
-    Magnitude: 100
 - BaseEffect: 000801:NPCs Learn Spells.esl
   Data:
     Magnitude: 0.01
     Duration: 120
+- BaseEffect: 00086A:NPCs Learn Odin Spells.esp
+  Data:
+    Magnitude: 100
