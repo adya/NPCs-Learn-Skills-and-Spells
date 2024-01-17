@@ -1,0 +1,65 @@
+FormKey: 000860:NPCs Learn Odin Spells.esp
+EditorID: ODN_Ill_Simulacrum2_Effect_Simulacrum_ForNPC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ODN_IllusorySimulacrum_ForNPC_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ODN_Ill_Simulacrum2_Spell_IllusorySimulacrum_Ab
+      Object: 085587:Odin - Skyrim Magic Overhaul.esp
+    - MutagenObjectType: ScriptIntProperty
+      Name: ODN_LevelMod
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MagicAllegianceFaction
+      Object: 000865:NPCs Learn Odin Spells.esp
+Name:
+  TargetLanguage: English
+  Value: Simulacrum
+MenuDisplayObject: 11CC26:Odin - Skyrim Magic Overhaul.esp
+Keywords:
+- A00105:Update.esm
+- 205EBC:Odin - Skyrim Magic Overhaul.esp
+Flags:
+- Hostile
+- Recover
+- Detrimental
+- NoArea
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+MagicSkill: Illusion
+CastingLight: 11C6AA:Odin - Skyrim Magic Overhaul.esp
+HitShader: 2100E7:Odin - Skyrim Magic Overhaul.esp
+MinimumSkillLevel: 25
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+Projectile: 11BBCA:Odin - Skyrim Magic Overhaul.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 11C6A9:Odin - Skyrim Magic Overhaul.esp
+HitEffectArt: 0CDDA1:Odin - Skyrim Magic Overhaul.esp
+ImpactData: 11CC2B:Odin - Skyrim Magic Overhaul.esp
+DualCastScale: 1
+Sounds:
+- Sound: 07BBAB:Skyrim.esm
+- Type: Charge
+  Sound: 03C8F9:Skyrim.esm
+- Type: Ready
+  Sound: 03C8FA:Skyrim.esm
+- Type: Release
+  Sound: 08196D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Living targets are attacked by an illusion for <dur> seconds. Chance to fail on targets above level <mag>.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasMagicEffectKeywordConditionData
+    Keyword: 2100E6:Odin - Skyrim Magic Overhaul.esp
+  ComparisonValue: 1

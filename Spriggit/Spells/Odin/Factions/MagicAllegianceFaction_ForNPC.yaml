@@ -1,0 +1,11 @@
+FormKey: 000865:NPCs Learn Odin Spells.esp
+EditorID: MagicAllegianceFaction_ForNPC
+Name:
+  TargetLanguage: English
+  Value: Allegiance Faction For NPC
+Relations:
+- Target: 09E0C9:Skyrim.esm
+CrimeValues:
+  Arrest: True
+  AttackOnSight: True
+VendorValues: {}

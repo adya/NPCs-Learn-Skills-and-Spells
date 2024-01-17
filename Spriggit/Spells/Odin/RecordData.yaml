@@ -7,15 +7,17 @@ ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 113
-    NextFormID: 2144
+    NumRecords: 119
+    NextFormID: 2150
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
   - Master: Dragonborn.esm
     FileSize: 0
-  - Master: Odin - Skyrim Magic Overhaul.esp
-    FileSize: 0
   - Master: NPCs Learn Spells.esl
+    FileSize: 0
+  - Master: Odin - Skyrim Magic Overhaul.esp
     FileSize: 0

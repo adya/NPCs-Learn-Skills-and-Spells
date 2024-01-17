@@ -23,8 +23,12 @@ Effects:
   Data:
     Magnitude: 14
     Area: 8
-- BaseEffect: 233864:Odin - Skyrim Magic Overhaul.esp
+- BaseEffect: 000861:NPCs Learn Odin Spells.esp
   Data:
     Magnitude: 14
     Area: 8
     Duration: 15
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 60

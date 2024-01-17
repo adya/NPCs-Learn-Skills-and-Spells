@@ -20,7 +20,7 @@ Effects:
 - BaseEffect: 2100E5:Odin - Skyrim Magic Overhaul.esp
   Data:
     Magnitude: 6
-- BaseEffect: 085582:Odin - Skyrim Magic Overhaul.esp
+- BaseEffect: 000860:NPCs Learn Odin Spells.esp
   Data:
     Magnitude: 6
     Duration: 15
