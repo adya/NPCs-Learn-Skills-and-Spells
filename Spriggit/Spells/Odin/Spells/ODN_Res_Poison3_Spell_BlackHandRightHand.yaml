@@ -1,0 +1,21 @@
+FormKey: 000871:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Poison3_Spell_BlackHandRightHand
+Name:
+  TargetLanguage: English
+  Value: Black Hand
+MenuDisplayObject: 24CD90:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 62
+Flags:
+- AreaEffectIgnoresLOS
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 2D09D2:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 25
+    Duration: 1

@@ -1,0 +1,21 @@
+FormKey: 00086F:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Buff2_Spell_TrollsBloodLeftHand
+Name:
+  TargetLanguage: English
+  Value: Troll's Blood
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 95
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44C7:Skyrim.esm
+Effects:
+- BaseEffect: 251EA4:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 100
+    Duration: 180

@@ -1,0 +1,20 @@
+FormKey: 00086C:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Poison1_Spell_SpiderTouchRightHand
+Name:
+  TargetLanguage: English
+  Value: Spider Touch
+MenuDisplayObject: 24CD90:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 23
+CastType: FireAndForget
+TargetType: TargetActor
+Range: 10
+HalfCostPerk: 0F2CAA:Skyrim.esm
+Effects:
+- BaseEffect: 251EB1:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 2
+    Duration: 10

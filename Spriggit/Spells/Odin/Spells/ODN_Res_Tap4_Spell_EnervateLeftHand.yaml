@@ -1,0 +1,96 @@
+FormKey: 00087A:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Tap4_Spell_EnervateLeftHand
+Name:
+  TargetLanguage: English
+  Value: Enervate
+MenuDisplayObject: 11D1A7:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 444
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 01E708:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E709:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E70A:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E70B:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E70C:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E70D:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E70E:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E70F:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01E710:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC76:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC77:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC78:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC79:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC7A:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC7B:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC7C:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC7D:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC7E:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 01EC7F:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 180

@@ -1,0 +1,29 @@
+FormKey: 00087D:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Drain4_Spell_EnergyLeechLeftHand
+Name:
+  TargetLanguage: English
+  Value: Energy Leech
+MenuDisplayObject: 11D19C:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 52
+Flags:
+- NoAbsorbOrReflect
+CastType: Concentration
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 251E94:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 30
+- BaseEffect: 251E9F:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 30
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      Keyword: 00087E:NPCs Learn Odin Spells.esp
+    ComparisonValue: 1
