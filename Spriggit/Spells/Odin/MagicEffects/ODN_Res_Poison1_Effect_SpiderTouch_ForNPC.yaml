@@ -1,0 +1,66 @@
+FormKey: 000880:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Poison1_Effect_SpiderTouch_ForNPC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ODN_SoundImod_Script
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ODN_Imod
+      Object: 0ABF19:Skyrim.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ODN_Sound
+      Object: 256FCD:Odin - Skyrim Magic Overhaul.esp
+Name:
+  TargetLanguage: English
+  Value: Spider Touch
+MenuDisplayObject: 24CD90:Odin - Skyrim Magic Overhaul.esp
+Keywords:
+- 0A9B1F:Skyrim.esm
+- ADA001:Update.esm
+- 159B3B:Odin - Skyrim Magic Overhaul.esp
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 11
+MagicSkill: Restoration
+ResistValue: PoisonResist
+CastingLight: 24CD92:Odin - Skyrim Magic Overhaul.esp
+TaperWeight: 1
+HitShader: 120321:Odin - Skyrim Magic Overhaul.esp
+SpellmakingCastingTime: 0.5
+TaperCurve: 1
+TaperDuration: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 000881:NPCs Learn Odin Spells.esp
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 24CD91:Odin - Skyrim Magic Overhaul.esp
+HitEffectArt: 1046CD:Skyrim.esm
+ImpactData: 120320:Odin - Skyrim Magic Overhaul.esp
+SkillUsageMultiplier: 1
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds:
+- Sound: 03E957:Skyrim.esm
+- Type: Charge
+  Sound: 03C8F9:Skyrim.esm
+- Type: Ready
+  Sound: 03F363:Skyrim.esm
+- Type: Release
+  Sound: 116E57:Odin - Skyrim Magic Overhaul.esp
+Description:
+  TargetLanguage: English
+  Value: Living target in melee range takes <mag> points of poison damage per second for <dur> seconds.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 01397A:Skyrim.esm
