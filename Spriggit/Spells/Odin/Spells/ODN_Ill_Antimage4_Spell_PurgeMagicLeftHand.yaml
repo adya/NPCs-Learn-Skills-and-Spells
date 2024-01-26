@@ -19,7 +19,7 @@ Effects:
 - BaseEffect: 000801:NPCs Learn Spells.esl
   Data:
     Magnitude: 0.01
-    Duration: 120
+    Duration: 60
 - BaseEffect: 00086A:NPCs Learn Odin Spells.esp
   Data:
     Magnitude: 100

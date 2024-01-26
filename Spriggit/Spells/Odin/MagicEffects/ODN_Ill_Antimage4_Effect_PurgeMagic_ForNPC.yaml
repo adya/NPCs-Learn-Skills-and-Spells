@@ -1,6 +1,8 @@
 FormKey: 00086A:NPCs Learn Odin Spells.esp
 EditorID: ODN_Ill_Antimage4_Effect_PurgeMagic_ForNPC
-VirtualMachineAdapter: {}
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ODN_Dispel_ForNPC_Script
 Name:
   TargetLanguage: English
   Value: Purge Magic
