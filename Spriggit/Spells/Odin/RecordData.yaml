@@ -9,7 +9,8 @@ ModHeader:
   Stats:
     NumRecords: 163
     NextFormID: 2178
-  Author: ''
+  Author: sasnikol
+  Description: Adds modified Odin spells that will work for NPC.
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0
