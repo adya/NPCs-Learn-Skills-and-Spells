@@ -12,7 +12,11 @@ BaseCost: 15
 Flags:
 - ManualCostCalc
 CastType: Concentration
+HalfCostPerk: 0F2CAA:Skyrim.esm
 Effects:
 - BaseEffect: 00014C:Skyrim.esm
   Data:
     Magnitude: 30
+- BaseEffect: 0FCC62:Skyrim.esm
+  Data:
+    Magnitude: 100

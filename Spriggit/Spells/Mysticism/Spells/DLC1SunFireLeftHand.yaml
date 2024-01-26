@@ -1,22 +1,21 @@
-FormKey: 00089B:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_VampiresBaneLeftHand
+FormKey: 010D8D:Dawnguard.esm
+EditorID: DLC1SunFireLeftHand
 Name:
   TargetLanguage: English
-  Value: Vampire's Bane
+  Value: Sun Fire
 MenuDisplayObject: 018F02:Dawnguard.esm
 EquipmentType: 013F43:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 118
+BaseCost: 32
 Flags:
 - ManualCostCalc
-ChargeTime: 1
+ChargeTime: 0.5
 CastType: FireAndForget
 TargetType: Aimed
-HalfCostPerk: 0C44C8:Skyrim.esm
+HalfCostPerk: 0C44C7:Skyrim.esm
 Effects:
-- BaseEffect: D4B02F:MysticismMagic.esp
+- BaseEffect: D4B02E:MysticismMagic.esp
   Data:
-    Magnitude: 40
-    Area: 15
+    Magnitude: 20

@@ -29,7 +29,7 @@ Effects:
       MutagenObjectType: HasMagicEffectConditionData
       MagicEffect: 008A5C:Dawnguard.esm
     ComparisonValue: 1
-- BaseEffect: D4B030:MysticismMagic.esp
+- BaseEffect: 000800:NPCs Learn Spells.esl
   Data:
     Magnitude: 0.01
     Duration: 60
