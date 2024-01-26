@@ -1,23 +1,28 @@
-FormKey: 10105F:Skyrim.esm
-EditorID: ReanimateCorpseRightHand
+FormKey: 101062:Skyrim.esm
+EditorID: ODN_Con_Reanimate4_Spell_RightHand
 Name:
   TargetLanguage: English
-  Value: Reanimate Corpse
+  Value: Dread Zombie
 MenuDisplayObject: 1097CC:Skyrim.esm
 EquipmentType: 013F42:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 151
+BaseCost: 382
 Flags:
 - NoAbsorbOrReflect
+ChargeTime: 0.5
 CastType: FireAndForget
 TargetType: TargetActor
-HalfCostPerk: 0C44BB:Skyrim.esm
+HalfCostPerk: 0C44BD:Skyrim.esm
 Effects:
-- BaseEffect: 016C0F:Skyrim.esm
+- BaseEffect: 016C3D:Skyrim.esm
   Data:
-    Magnitude: 13
+    Magnitude: 30
+    Duration: 60
+- BaseEffect: 101063:Skyrim.esm
+  Data:
+    Magnitude: 3
     Duration: 60
 - BaseEffect: 10EAD9:Skyrim.esm
   Data:
