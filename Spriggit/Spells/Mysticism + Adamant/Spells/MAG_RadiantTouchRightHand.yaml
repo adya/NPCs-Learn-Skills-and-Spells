@@ -1,0 +1,32 @@
+FormKey: 00086D:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_RadiantTouchRightHand
+Name:
+  TargetLanguage: English
+  Value: Radiant Touch
+MenuDisplayObject: 018F02:Dawnguard.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 139
+Flags:
+- ManualCostCalc
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: D45F27:MysticismMagic.esp
+  Data:
+    Magnitude: 60
+    Area: 1
+- BaseEffect: 3C7909:Adamant.esp
+  Data:
+    Magnitude: 9
+    Area: 1
+    Duration: 2
+- BaseEffect: B5AB09:Adamant.esp
+  Data:
+    Magnitude: 9
+    Area: 1
+    Duration: 2

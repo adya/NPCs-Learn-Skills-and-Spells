@@ -1,10 +1,10 @@
-FormKey: 000890:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_SolarFlareLeftHand
+FormKey: 000891:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_SolarFlareRightHand
 Name:
   TargetLanguage: English
   Value: Solar Flare
 MenuDisplayObject: 018F02:Dawnguard.esm
-EquipmentType: 013F43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
@@ -20,3 +20,13 @@ Effects:
   Data:
     Magnitude: 80
     Area: 20
+- BaseEffect: 3C7909:Adamant.esp
+  Data:
+    Magnitude: 12
+    Area: 20
+    Duration: 2
+- BaseEffect: B5AB09:Adamant.esp
+  Data:
+    Magnitude: 12
+    Area: 20
+    Duration: 2

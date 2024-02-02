@@ -1,10 +1,10 @@
-FormKey: 000855:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_ReflectiveLightLeftHand
+FormKey: 00087A:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ReflectiveLightRightHand
 Name:
   TargetLanguage: English
   Value: Reflective Light
 MenuDisplayObject: 018F02:Dawnguard.esm
-EquipmentType: 013F43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
@@ -19,3 +19,11 @@ Effects:
 - BaseEffect: 2466B8:MysticismMagic.esp
   Data:
     Magnitude: 60
+- BaseEffect: 3C7909:Adamant.esp
+  Data:
+    Magnitude: 9
+    Duration: 2
+- BaseEffect: B5AB09:Adamant.esp
+  Data:
+    Magnitude: 9
+    Duration: 2

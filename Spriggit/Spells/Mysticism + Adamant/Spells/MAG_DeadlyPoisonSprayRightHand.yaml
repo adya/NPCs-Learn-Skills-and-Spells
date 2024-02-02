@@ -1,0 +1,41 @@
+FormKey: 000873:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_DeadlyPoisonSprayRightHand
+Name:
+  TargetLanguage: English
+  Value: Deadly Poison Spray
+MenuDisplayObject: 90F67F:MysticismMagic.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 61
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 9420A2:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: D1D4D3:Adamant.esp
+  Data:
+    Magnitude: 10
+    Duration: 1
+- BaseEffect: D1D4D4:Adamant.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: D1D4D5:Adamant.esp
+  Data:
+    Magnitude: 10
+    Duration: 1
+- BaseEffect: D1D4D6:Adamant.esp
+  Data:
+    Magnitude: 15
+    Duration: 1
+- BaseEffect: D1D4D7:Adamant.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
