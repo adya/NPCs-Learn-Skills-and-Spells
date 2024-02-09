@@ -1,14 +1,14 @@
-FormKey: 00080F:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_BurningTouchLeftHand
+FormKey: 07D98F:Skyrim.esm
+EditorID: MAG_FireboltLeftHand
 Name:
   TargetLanguage: English
-  Value: Burning Touch
+  Value: Firebolt
 MenuDisplayObject: 04E264:Skyrim.esm
 EquipmentType: 013F43:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 50
+BaseCost: 40
 Flags:
 - ManualCostCalc
 ChargeTime: 0.5
@@ -16,10 +16,13 @@ CastType: FireAndForget
 TargetType: Aimed
 HalfCostPerk: 0C44BF:Skyrim.esm
 Effects:
-- BaseEffect: 1AE7F9:MysticismMagic.esp
+- BaseEffect: 012F03:Skyrim.esm
   Data:
-    Magnitude: 30
+    Magnitude: 20
 - BaseEffect: 0153D3:Skyrim.esm
   Data:
     Magnitude: 0.25
-    Duration: 1
+- BaseEffect: 0F392D:Skyrim.esm
+  Data:
+    Magnitude: 99
+    Duration: 10
