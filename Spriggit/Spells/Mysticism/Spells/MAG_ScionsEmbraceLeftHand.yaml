@@ -9,8 +9,6 @@ Description:
   TargetLanguage: English
   Value: ''
 BaseCost: 620
-Flags:
-- ManualCostCalc
 ChargeTime: 1
 CastType: FireAndForget
 HalfCostPerk: 0C44C2:Skyrim.esm
@@ -19,7 +17,27 @@ Effects:
   Data:
     Magnitude: 10
     Duration: 60
-- BaseEffect: D5F474:MysticismMagic.esp
+- BaseEffect: 445FAF:MysticismMagic.esp
   Data:
-    Magnitude: 0.01
+    Magnitude: 10
     Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      RunOnType: Target
+      Keyword: 0008E6:NPCs Learn Mysticism Spells.esp
+    ComparisonValue: 1
+- BaseEffect: 445FA5:MysticismMagic.esp
+  Data:
+    Magnitude: 10
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasKeywordConditionData
+      RunOnType: Target
+      Keyword: 0008E7:NPCs Learn Mysticism Spells.esp
+    ComparisonValue: 1

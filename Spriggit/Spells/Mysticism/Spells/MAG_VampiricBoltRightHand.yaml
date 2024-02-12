@@ -24,7 +24,7 @@ Effects:
   Data:
     Area: 2
     Duration: 3
-- BaseEffect: 0153D3:Skyrim.esm
+- BaseEffect: 0C1331:MysticismMagic.esp
   Data:
-    Magnitude: 0.25
+    Magnitude: 40
     Area: 2

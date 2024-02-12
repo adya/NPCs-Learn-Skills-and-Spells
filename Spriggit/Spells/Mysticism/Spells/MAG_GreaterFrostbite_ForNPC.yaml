@@ -1,0 +1,24 @@
+FormKey: 00081C:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_GreaterFrostbite_ForNPC
+Name:
+  TargetLanguage: English
+  Value: Greater Frostbite
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 52
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 1D7028:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: 0B729D:Skyrim.esm
+  Data:
+    Duration: 3

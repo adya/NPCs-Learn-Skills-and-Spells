@@ -1,24 +1,26 @@
-FormKey: 0C969C:Skyrim.esm
-EditorID: MAG_IceSpikeRightHand
+FormKey: 0BB96A:Skyrim.esm
+EditorID: MAG_IceStormRightHand
 Name:
   TargetLanguage: English
-  Value: Ice Spike
+  Value: Ice Storm
 MenuDisplayObject: 09DB72:Skyrim.esm
 EquipmentType: 013F42:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 36
+BaseCost: 124
 Flags:
 - ManualCostCalc
-ChargeTime: 0.5
+- AreaEffectIgnoresLOS
+ChargeTime: 1
 CastType: FireAndForget
 TargetType: Aimed
-HalfCostPerk: 0C44BF:Skyrim.esm
+HalfCostPerk: 0C44C0:Skyrim.esm
 Effects:
-- BaseEffect: 01CEA2:Skyrim.esm
+- BaseEffect: 01CEA3:Skyrim.esm
   Data:
-    Magnitude: 20
+    Magnitude: 40
+    Area: 15
 - BaseEffect: 0B729F:Skyrim.esm
   Data:
     Duration: 3

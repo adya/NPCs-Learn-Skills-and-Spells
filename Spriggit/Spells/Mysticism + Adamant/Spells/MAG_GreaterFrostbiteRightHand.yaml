@@ -1,10 +1,10 @@
-FormKey: 00081C:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_GreaterFrostbiteLeftHand
+FormKey: 00081F:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_GreaterFrostbiteRightHand
 Name:
   TargetLanguage: English
   Value: Greater Frostbite
 MenuDisplayObject: 09DB72:Skyrim.esm
-EquipmentType: 013F43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
@@ -22,3 +22,10 @@ Effects:
 - BaseEffect: 0B729D:Skyrim.esm
   Data:
     Duration: 3
+- BaseEffect: 85E301:Adamant.esp
+  Data:
+    Magnitude: 0.25
+    Duration: 1
+- BaseEffect: 0F3934:Skyrim.esm
+  Data:
+    Duration: 1

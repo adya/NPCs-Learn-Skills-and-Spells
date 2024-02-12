@@ -19,9 +19,6 @@ Effects:
 - BaseEffect: 01CEA2:Skyrim.esm
   Data:
     Magnitude: 20
-- BaseEffect: 0153D3:Skyrim.esm
-  Data:
-    Magnitude: 0.25
 - BaseEffect: 0B729F:Skyrim.esm
   Data:
     Duration: 3

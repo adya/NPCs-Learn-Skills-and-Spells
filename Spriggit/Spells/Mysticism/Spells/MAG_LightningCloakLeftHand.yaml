@@ -1,0 +1,21 @@
+FormKey: 0400AD:Skyrim.esm
+EditorID: MAG_LightningCloakLeftHand
+Name:
+  TargetLanguage: English
+  Value: Lightning Cloak
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 274
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 03AEA1:Skyrim.esm
+  Data:
+    Magnitude: 8
+    Duration: 60
