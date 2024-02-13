@@ -19,6 +19,9 @@ Effects:
   Data:
     Magnitude: 20
     Duration: 1
+- BaseEffect: 0F3934:Skyrim.esm
+  Data:
+    Duration: 3
 - BaseEffect: 0B729D:Skyrim.esm
   Data:
     Magnitude: 50

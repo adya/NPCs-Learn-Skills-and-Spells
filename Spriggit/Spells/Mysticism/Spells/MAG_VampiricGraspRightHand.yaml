@@ -4,7 +4,7 @@ Name:
   TargetLanguage: English
   Value: Vampiric Grasp
 MenuDisplayObject: 10FEF4:Skyrim.esm
-EquipmentType: 013F43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
@@ -24,7 +24,7 @@ Effects:
   Data:
     Area: 3
     Duration: 3
-- BaseEffect: 0153D3:Skyrim.esm
+- BaseEffect: 0C1336:MysticismMagic.esp
   Data:
-    Magnitude: 0.25
+    Magnitude: 90
     Area: 3

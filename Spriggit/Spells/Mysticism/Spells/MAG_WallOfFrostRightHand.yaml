@@ -13,10 +13,11 @@ Flags:
 - ManualCostCalc
 CastType: Concentration
 TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
 Effects:
 - BaseEffect: 0008A7:NPCs Learn Mysticism Spells.esp
   Data:
-    Magnitude: 40
+    Magnitude: 20
     Duration: 1
 - BaseEffect: 0B729D:Skyrim.esm
   Data:

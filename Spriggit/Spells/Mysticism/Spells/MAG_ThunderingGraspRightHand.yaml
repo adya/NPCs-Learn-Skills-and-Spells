@@ -20,8 +20,3 @@ Effects:
   Data:
     Magnitude: 90
     Area: 3
-- BaseEffect: 0153D3:Skyrim.esm
-  Data:
-    Magnitude: 0.25
-    Area: 3
-    Duration: 1

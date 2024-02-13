@@ -1,22 +1,27 @@
-FormKey: 0008AA:NPCs Learn Mysticism Spells.esp
-EditorID: ThunderboltLeftHand
+FormKey: 00082E:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ThunderingGraspForNPC
 Name:
   TargetLanguage: English
-  Value: Thunderbolt
+  Value: Thundering Grasp
 MenuDisplayObject: 09FA64:Skyrim.esm
-EquipmentType: 013F43:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 198
+BaseCost: 310
+Flags:
+- ManualCostCalc
 ChargeTime: 0.5
 CastType: FireAndForget
 TargetType: Aimed
 HalfCostPerk: 0C44C1:Skyrim.esm
 Effects:
-- BaseEffect: 10F7EF:Skyrim.esm
+- BaseEffect: 1D7027:MysticismMagic.esp
   Data:
-    Magnitude: 60
+    Magnitude: 90
+    Area: 3
 - BaseEffect: 0153D3:Skyrim.esm
   Data:
     Magnitude: 0.25
+    Area: 3
+    Duration: 1

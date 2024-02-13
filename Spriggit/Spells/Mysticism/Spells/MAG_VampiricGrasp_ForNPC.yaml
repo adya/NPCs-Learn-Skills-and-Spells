@@ -1,10 +1,10 @@
 FormKey: 000826:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_VampiricGraspLeftHand
+EditorID: MAG_VampiricGrasp_ForNPC
 Name:
   TargetLanguage: English
   Value: Vampiric Grasp
 MenuDisplayObject: 10FEF4:Skyrim.esm
-EquipmentType: 013F43:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
@@ -27,4 +27,8 @@ Effects:
 - BaseEffect: 0153D3:Skyrim.esm
   Data:
     Magnitude: 0.25
+    Area: 3
+- BaseEffect: 0C1336:MysticismMagic.esp
+  Data:
+    Magnitude: 90
     Area: 3
