@@ -21,8 +21,3 @@ Effects:
   Data:
     Magnitude: 80
     Area: 20
-- BaseEffect: 38FA03:MysticismMagic.esp
-  Data:
-    Magnitude: 0.25
-    Area: 20
-    Duration: 1

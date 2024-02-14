@@ -1,0 +1,35 @@
+FormKey: 0008EF:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_LightningStorm_ForNPC
+Name:
+  TargetLanguage: English
+  Value: Lightning Storm
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 184
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C2:Skyrim.esm
+Effects:
+- BaseEffect: 0D22FA:Skyrim.esm
+  Data:
+    Magnitude: 40
+    Duration: 1
+- BaseEffect: 85E301:Adamant.esp
+  Data:
+    Magnitude: 0.25
+    Duration: 1
+- BaseEffect: 3B34FF:Adamant.esp
+  Data:
+    Magnitude: 40
+    Duration: 1
+- BaseEffect: 0F3F0C:Skyrim.esm
+  Data:
+    Duration: 1
+- BaseEffect: ABDBB3:Adamant.esp
+  Data:
+    Duration: 1
