@@ -23,7 +23,7 @@ MinimumSkillLevel: 75
 SpellmakingCastingTime: 0.5
 Archetype:
   MutagenObjectType: MagicEffectArchetype
-  Type: Script
+  ActorValue: Health
 Projectile: 034190:Skyrim.esm
 CastType: Concentration
 TargetType: Aimed
