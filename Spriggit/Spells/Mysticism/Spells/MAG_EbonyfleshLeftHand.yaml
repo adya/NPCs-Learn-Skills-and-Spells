@@ -1,27 +1,27 @@
-FormKey: 0008AE:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_DragonhideLeftHand
+FormKey: 072318:Skyrim.esm
+EditorID: MAG_EbonyfleshLeftHand
 Name:
   TargetLanguage: English
-  Value: Dragonhide
+  Value: Ebonyflesh
 MenuDisplayObject: 109AC2:Skyrim.esm
 EquipmentType: 013F43:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 631
+BaseCost: 370
 Flags:
 - ManualCostCalc
 ChargeTime: 1
 CastType: FireAndForget
-HalfCostPerk: 0C44BA:Skyrim.esm
+HalfCostPerk: 0C44B9:Skyrim.esm
 Effects:
-- BaseEffect: 0CDB75:Skyrim.esm
+- BaseEffect: 059B7C:Skyrim.esm
   Data:
-    Magnitude: 200
+    Magnitude: 160
     Duration: 60
 - BaseEffect: 104AB5:Skyrim.esm
   Data:
-    Magnitude: 200
+    Magnitude: 160
     Duration: 60
   Conditions:
   - MutagenObjectType: ConditionFloat
@@ -42,7 +42,7 @@ Effects:
       Keyword: 06BBD2:Skyrim.esm
 - BaseEffect: 104ABA:Skyrim.esm
   Data:
-    Magnitude: 100
+    Magnitude: 80
     Duration: 60
   Conditions:
   - MutagenObjectType: ConditionFloat
@@ -63,7 +63,7 @@ Effects:
       Keyword: 06BBD2:Skyrim.esm
 - BaseEffect: 104AB9:Skyrim.esm
   Data:
-    Magnitude: 100
+    Magnitude: 80
     Duration: 60
   Conditions:
   - MutagenObjectType: ConditionFloat

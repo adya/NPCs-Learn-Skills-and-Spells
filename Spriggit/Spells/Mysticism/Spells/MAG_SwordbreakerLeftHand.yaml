@@ -21,12 +21,12 @@ Effects:
   Data:
     Magnitude: 50
     Area: 20
-    Duration: 60
+    Duration: 30
 - BaseEffect: AC7E89:MysticismMagic.esp
   Data:
     Magnitude: 0.5
     Area: 20
-    Duration: 60
+    Duration: 30
 - BaseEffect: 000801:NPCs Learn Spells.esl
   Data:
     Magnitude: 0.01

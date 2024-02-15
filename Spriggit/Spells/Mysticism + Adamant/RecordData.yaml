@@ -7,7 +7,7 @@ ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 77
+    NumRecords: 82
     NextFormID: 2050
   Author: ''
   MasterReferences:
@@ -15,9 +15,11 @@ ModHeader:
     FileSize: 0
   - Master: Dawnguard.esm
     FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
   - Master: MysticismMagic.esp
     FileSize: 0
-  - Master: NPCs Learn Mysticism Spells.esp
-    FileSize: 0
   - Master: Adamant.esp
+    FileSize: 0
+  - Master: NPCs Learn Mysticism Spells.esp
     FileSize: 0

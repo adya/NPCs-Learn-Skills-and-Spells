@@ -1,27 +1,27 @@
-FormKey: 0008AE:NPCs Learn Mysticism Spells.esp
-EditorID: MAG_DragonhideLeftHand
+FormKey: 072317:Skyrim.esm
+EditorID: MAG_IronfleshLeftHand
 Name:
   TargetLanguage: English
-  Value: Dragonhide
+  Value: Ironflesh
 MenuDisplayObject: 109AC2:Skyrim.esm
 EquipmentType: 013F43:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 631
+BaseCost: 266
 Flags:
 - ManualCostCalc
 ChargeTime: 1
 CastType: FireAndForget
-HalfCostPerk: 0C44BA:Skyrim.esm
+HalfCostPerk: 0C44B8:Skyrim.esm
 Effects:
-- BaseEffect: 0CDB75:Skyrim.esm
+- BaseEffect: 059B7B:Skyrim.esm
   Data:
-    Magnitude: 200
+    Magnitude: 120
     Duration: 60
 - BaseEffect: 104AB5:Skyrim.esm
   Data:
-    Magnitude: 200
+    Magnitude: 120
     Duration: 60
   Conditions:
   - MutagenObjectType: ConditionFloat
@@ -42,15 +42,9 @@ Effects:
       Keyword: 06BBD2:Skyrim.esm
 - BaseEffect: 104ABA:Skyrim.esm
   Data:
-    Magnitude: 100
+    Magnitude: 60
     Duration: 60
   Conditions:
-  - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Data:
-      MutagenObjectType: HasPerkConditionData
-      Perk: 0D799A:Skyrim.esm
-    ComparisonValue: 1
   - MutagenObjectType: ConditionFloat
     Unknown1: 0x000000
     Data:
@@ -61,9 +55,15 @@ Effects:
     Data:
       MutagenObjectType: WornHasKeywordConditionData
       Keyword: 06BBD2:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D799A:Skyrim.esm
+    ComparisonValue: 1
 - BaseEffect: 104AB9:Skyrim.esm
   Data:
-    Magnitude: 100
+    Magnitude: 60
     Duration: 60
   Conditions:
   - MutagenObjectType: ConditionFloat

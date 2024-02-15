@@ -19,8 +19,8 @@ Effects:
 - BaseEffect: 29267A:MysticismMagic.esp
   Data:
     Magnitude: 50
-    Duration: 20
+    Duration: 30
 - BaseEffect: 000801:NPCs Learn Spells.esl
   Data:
     Magnitude: 0.01
-    Duration: 20
+    Duration: 60

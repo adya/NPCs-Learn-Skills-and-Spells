@@ -22,23 +22,9 @@ Effects:
 - BaseEffect: 264D0B:MysticismMagic.esp
   Data:
     Duration: 120
-- BaseEffect: F08A1D:MysticismMagic.esp
-  Data:
-    Duration: 300
 - BaseEffect: F08A31:MysticismMagic.esp
   Data:
     Duration: 120
-- BaseEffect: F08A2E:MysticismMagic.esp
-  Data:
-    Magnitude: 0.01
-    Duration: 120
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Data:
-      MutagenObjectType: HasMagicEffectConditionData
-      MagicEffect: 48CEF9:MysticismMagic.esp
-    ComparisonValue: 1
 - BaseEffect: F12C33:MysticismMagic.esp
   Data:
     Duration: 120
@@ -78,6 +64,3 @@ Effects:
 - BaseEffect: 070313:MysticismMagic.esp
   Data:
     Duration: 240
-- BaseEffect: F08A1F:MysticismMagic.esp
-  Data:
-    Duration: 600

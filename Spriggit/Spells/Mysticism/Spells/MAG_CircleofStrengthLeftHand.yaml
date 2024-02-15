@@ -22,23 +22,9 @@ Effects:
 - BaseEffect: F21F42:MysticismMagic.esp
   Data:
     Duration: 120
-- BaseEffect: F21F43:MysticismMagic.esp
-  Data:
-    Duration: 300
 - BaseEffect: F21F46:MysticismMagic.esp
   Data:
     Duration: 120
-- BaseEffect: F21F49:MysticismMagic.esp
-  Data:
-    Magnitude: 0.01
-    Duration: 120
-  Conditions:
-  - MutagenObjectType: ConditionFloat
-    Unknown1: 0x000000
-    Data:
-      MutagenObjectType: HasMagicEffectConditionData
-      MagicEffect: F21F3A:MysticismMagic.esp
-    ComparisonValue: 1
 - BaseEffect: F21F47:MysticismMagic.esp
   Data:
     Duration: 120
@@ -78,6 +64,3 @@ Effects:
 - BaseEffect: 070315:MysticismMagic.esp
   Data:
     Duration: 240
-- BaseEffect: F21F44:MysticismMagic.esp
-  Data:
-    Duration: 600

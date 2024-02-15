@@ -1,0 +1,55 @@
+FormKey: 072315:Skyrim.esm
+EditorID: MAG_OakfleshLeftHand
+Name:
+  TargetLanguage: English
+  Value: Oakflesh
+MenuDisplayObject: 109AC2:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 103
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0F2CA6:Skyrim.esm
+Effects:
+- BaseEffect: 051B15:Skyrim.esm
+  Data:
+    Magnitude: 40
+    Duration: 60
+- BaseEffect: 104AB5:Skyrim.esm
+  Data:
+    Magnitude: 20
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 0A8657:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D7999:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 104ABA:Skyrim.esm
+  Data:
+    Magnitude: 20
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 0A8657:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D799A:Skyrim.esm
+    ComparisonValue: 1

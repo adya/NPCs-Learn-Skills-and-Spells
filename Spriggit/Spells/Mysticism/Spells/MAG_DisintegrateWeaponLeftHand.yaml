@@ -19,11 +19,11 @@ Effects:
 - BaseEffect: 29C8AA:MysticismMagic.esp
   Data:
     Magnitude: 0.25
-    Duration: 60
+    Duration: 30
 - BaseEffect: 0008CC:NPCs Learn Mysticism Spells.esp
   Data:
     Magnitude: 25
-    Duration: 60
+    Duration: 30
 - BaseEffect: 000801:NPCs Learn Spells.esl
   Data:
     Magnitude: 0.01
