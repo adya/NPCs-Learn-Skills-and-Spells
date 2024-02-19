@@ -1,0 +1,23 @@
+FormKey: 0008F3:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ConjureSpectralWolfLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Spectral Wolf
+MenuDisplayObject: E2EEA7:MysticismMagic.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 107
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 50
+HalfCostPerk: 0F2CA7:Skyrim.esm
+Effects:
+- BaseEffect: 0640B4:Skyrim.esm
+  Data:
+    Duration: 60

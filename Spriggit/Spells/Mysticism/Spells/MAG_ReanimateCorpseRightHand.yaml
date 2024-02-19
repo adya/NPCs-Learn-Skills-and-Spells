@@ -1,0 +1,26 @@
+FormKey: 10105F:Skyrim.esm
+EditorID: MAG_ReanimateCorpseRightHand
+Name:
+  TargetLanguage: English
+  Value: Reanimate Corpse
+MenuDisplayObject: 1097CC:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 145
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetActor
+HalfCostPerk: 0C44BB:Skyrim.esm
+Effects:
+- BaseEffect: 016C0F:Skyrim.esm
+  Data:
+    Magnitude: 10
+    Duration: 120
+- BaseEffect: 10EAD9:Skyrim.esm
+  Data:
+    Duration: 120

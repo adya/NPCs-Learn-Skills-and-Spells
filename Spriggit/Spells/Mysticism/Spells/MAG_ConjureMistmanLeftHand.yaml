@@ -1,0 +1,23 @@
+FormKey: 0008FD:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ConjureMistmanLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Mistman
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 358
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 0045BB:Dawnguard.esm
+  Data:
+    Duration: 60

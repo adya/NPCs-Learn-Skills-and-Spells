@@ -1,0 +1,23 @@
+FormKey: 100E78:Skyrim.esm
+EditorID: MAG_ConjureStormAtronachRightHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Storm Atronach
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 383
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 50
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 01CEAC:Skyrim.esm
+  Data:
+    Duration: 60

@@ -1,0 +1,24 @@
+FormKey: 0008F8:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_BoundMaceRightHand
+Name:
+  TargetLanguage: English
+  Value: Bound Mace
+MenuDisplayObject: 10AB43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 139
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44BB:Skyrim.esm
+Effects:
+- BaseEffect: E014FF:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: E1590F:MysticismMagic.esp
+  Data:
+    Duration: 120
