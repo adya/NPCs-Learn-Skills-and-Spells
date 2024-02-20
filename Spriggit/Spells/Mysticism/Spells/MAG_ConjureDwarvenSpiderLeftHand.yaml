@@ -1,0 +1,23 @@
+FormKey: 000906:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ConjureDwarvenSpiderLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Dwarven Spider
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 228
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BC:Skyrim.esm
+Effects:
+- BaseEffect: 446018:MysticismMagic.esp
+  Data:
+    Duration: 60

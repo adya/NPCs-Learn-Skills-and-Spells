@@ -1,0 +1,29 @@
+FormKey: 07E8DF:Skyrim.esm
+EditorID: MAG_DeadThrall
+Name:
+  TargetLanguage: English
+  Value: Dead Thrall
+MenuDisplayObject: 1097CC:Skyrim.esm
+EquipmentType: 013F44:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 672
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44BE:Skyrim.esm
+Effects:
+- BaseEffect: 07E8E0:Skyrim.esm
+  Data:
+    Magnitude: 40
+    Duration: 120
+- BaseEffect: 0F52AB:Skyrim.esm
+  Data:
+    Duration: 120
+- BaseEffect: 20F14A:Adamant.esp
+  Data:
+    Duration: 120
