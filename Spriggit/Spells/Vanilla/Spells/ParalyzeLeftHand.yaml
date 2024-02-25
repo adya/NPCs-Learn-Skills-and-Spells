@@ -16,4 +16,8 @@ HalfCostPerk: 0C44B9:Skyrim.esm
 Effects:
 - BaseEffect: 01EA6E:Skyrim.esm
   Data:
-    Duration: 5
+    Duration: 3
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30

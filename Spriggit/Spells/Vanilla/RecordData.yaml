@@ -7,11 +7,13 @@ ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 5
-    NextFormID: 2052
+    NumRecords: 10
+    NextFormID: 2053
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm
     FileSize: 0
   - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: NPCs Learn Spells.esl
     FileSize: 0
