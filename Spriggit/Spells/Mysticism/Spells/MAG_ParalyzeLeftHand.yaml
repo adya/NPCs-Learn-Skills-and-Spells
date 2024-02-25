@@ -18,4 +18,8 @@ HalfCostPerk: 0C44C4:Skyrim.esm
 Effects:
 - BaseEffect: 000850:NPCs Learn Mysticism Spells.esp
   Data:
-    Duration: 5
+    Duration: 3
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30
