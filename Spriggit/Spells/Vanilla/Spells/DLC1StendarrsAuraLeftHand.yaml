@@ -1,0 +1,29 @@
+FormKey: 000807:NPCs Learn Vanilla Spells.esp
+EditorID: DLC1StendarrsAuraLeftHand
+Name:
+  TargetLanguage: English
+  Value: Stendarr's Aura
+MenuDisplayObject: 018F02:Dawnguard.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 248
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 008A5C:Dawnguard.esm
+  Data:
+    Magnitude: 10
+    Duration: 60
+- BaseEffect: 00A3B9:Dawnguard.esm
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 008A5C:Dawnguard.esm
+    ComparisonValue: 1

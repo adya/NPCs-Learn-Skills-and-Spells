@@ -7,11 +7,13 @@ ModHeader:
   Flags:
   - Light
   Stats:
-    NumRecords: 10
-    NextFormID: 2053
+    NumRecords: 26
+    NextFormID: 2060
   Author: ''
   MasterReferences:
   - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
     FileSize: 0
   - Master: Dragonborn.esm
     FileSize: 0
