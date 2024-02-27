@@ -1,0 +1,37 @@
+FormKey: 0ABDF3:Skyrim.esm
+EditorID: ConjureFrostAtronachLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Frost Atronach
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 214
+Flags:
+- NoAbsorbOrReflect
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 50
+HalfCostPerk: 0C44BC:Skyrim.esm
+Effects:
+- BaseEffect: 01CEAB:Skyrim.esm
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0CB41A:Skyrim.esm
+- BaseEffect: 04E946:Skyrim.esm
+  Data:
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0CB41A:Skyrim.esm
+    ComparisonValue: 1

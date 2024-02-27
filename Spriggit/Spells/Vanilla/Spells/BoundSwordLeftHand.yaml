@@ -1,17 +1,17 @@
-FormKey: 000802:NPCs Learn Vanilla Spells.esp
-EditorID: DLC2BoundDaggerLeftHand
+FormKey: 0F9615:Skyrim.esm
+EditorID: BoundSwordLeftHand
 Name:
   TargetLanguage: English
-  Value: Bound Dagger
+  Value: Bound Sword
 MenuDisplayObject: 10AB43:Skyrim.esm
 EquipmentType: 013F43:Skyrim.esm
 Description:
   TargetLanguage: English
   Value: ''
-BaseCost: 52
+BaseCost: 63
 CastType: FireAndForget
 HalfCostPerk: 0F2CA7:Skyrim.esm
 Effects:
-- BaseEffect: 01CE04:Dragonborn.esm
+- BaseEffect: 0BA30F:Skyrim.esm
   Data:
     Duration: 300
