@@ -17,3 +17,7 @@ Effects:
   Data:
     Magnitude: 20
     Duration: 30
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30

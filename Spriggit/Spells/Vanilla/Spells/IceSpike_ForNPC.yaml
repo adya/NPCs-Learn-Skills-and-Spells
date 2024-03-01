@@ -19,7 +19,7 @@ Effects:
     Magnitude: 25
 - BaseEffect: 0153D3:Skyrim.esm
   Data:
-    Magnitude: 0.5
+    Magnitude: 0.25
 - BaseEffect: 0B729F:Skyrim.esm
   Data:
     Magnitude: 50
