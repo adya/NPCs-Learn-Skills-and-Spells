@@ -1,0 +1,29 @@
+FormKey: 000885:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ArkaysLightLeftHand
+Name:
+  TargetLanguage: English
+  Value: Arkay's Light
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 621
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: 9A74CA:MysticismMagic.esp
+  Data:
+    Magnitude: 5
+    Duration: 120
+- BaseEffect: CA3E2C:MysticismMagic.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120
+- BaseEffect: 63142C:MysticismMagic.esp
+  Data:
+    Magnitude: 100
+    Duration: 120

@@ -1,0 +1,21 @@
+FormKey: 0400AC:Skyrim.esm
+EditorID: MAG_FrostCloakLeftHand
+Name:
+  TargetLanguage: English
+  Value: Frost Cloak
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 243
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 03AEA0:Skyrim.esm
+  Data:
+    Magnitude: 8
+    Duration: 60

@@ -1,0 +1,31 @@
+FormKey: 00085B:NPCs Learn Natura Spells.esp
+EditorID: NAT_WallofWaterRightHand
+Name:
+  TargetLanguage: English
+  Value: Wall of Water
+MenuDisplayObject: 000B1E:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 88
+Flags:
+- ManualCostCalc
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C1:Skyrim.esm
+Effects:
+- BaseEffect: 000869:NPCs Learn Natura Spells.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: 000B4E:Natura.esp
+  Data:
+    Magnitude: 0.25
+    Duration: 1
+- BaseEffect: 000CE2:Natura.esp
+  Data:
+    Duration: 10
+- BaseEffect: 000CF8:Natura.esp
+  Data:
+    Duration: 10

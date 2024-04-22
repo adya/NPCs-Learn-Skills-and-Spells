@@ -1,0 +1,4 @@
+MutagenObjectType: GameSettingFloat
+FormKey: 000802:NPCs Learn Spells.esl
+EditorID: fCombatMagicStaggerDistance
+Data: 384

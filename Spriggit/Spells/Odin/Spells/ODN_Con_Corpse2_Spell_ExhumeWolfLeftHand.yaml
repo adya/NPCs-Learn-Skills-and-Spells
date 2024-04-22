@@ -1,0 +1,25 @@
+FormKey: 000813:NPCs Learn Odin Spells.esp
+EditorID: ODN_Con_Corpse2_Spell_ExhumeWolfLeftHand
+Name:
+  TargetLanguage: English
+  Value: Exhume Wolf
+MenuDisplayObject: 1097CC:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 145
+Flags:
+- IgnoreResistance
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44BB:Skyrim.esm
+Effects:
+- BaseEffect: 1BF04E:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Duration: 90
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 90

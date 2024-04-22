@@ -1,0 +1,83 @@
+FormKey: 000888:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_FontofStrengthLeftHand
+Name:
+  TargetLanguage: English
+  Value: Font of Strength
+MenuDisplayObject: F2704D:MysticismMagic.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 641
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: F36358:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F36355:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F36356:MysticismMagic.esp
+  Data:
+    Duration: 300
+- BaseEffect: F36359:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F3635C:MysticismMagic.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F36350:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3635A:MysticismMagic.esp
+  Data:
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F36350:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3635B:MysticismMagic.esp
+  Data:
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F36350:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3B49B:MysticismMagic.esp
+  Data:
+    Area: 50
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetShouldAttackConditionData
+      TargetNpc: 000014:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F36350:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: 070316:MysticismMagic.esp
+  Data:
+    Duration: 240
+- BaseEffect: F36357:MysticismMagic.esp
+  Data:
+    Duration: 600

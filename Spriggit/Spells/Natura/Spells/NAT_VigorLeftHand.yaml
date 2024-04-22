@@ -1,0 +1,25 @@
+FormKey: 00082D:NPCs Learn Natura Spells.esp
+EditorID: NAT_VigorLeftHand
+Name:
+  TargetLanguage: English
+  Value: Vigor
+MenuDisplayObject: 000871:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 290
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 000844:Natura.esp
+  Data:
+    Magnitude: 50
+    Duration: 120
+- BaseEffect: 00084A:Natura.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120

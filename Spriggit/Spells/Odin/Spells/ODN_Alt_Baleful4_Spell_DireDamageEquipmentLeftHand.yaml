@@ -1,0 +1,27 @@
+FormKey: 000808:NPCs Learn Odin Spells.esp
+EditorID: ODN_Alt_Baleful4_Spell_DireDamageEquipmentLeftHand
+Name:
+  TargetLanguage: English
+  Value: Dire Corrosion
+MenuDisplayObject: 0059B0:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 581
+Flags:
+- AreaEffectIgnoresLOS
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44B9:Skyrim.esm
+Effects:
+- BaseEffect: 27A7B3:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 250
+    Area: 15
+    Duration: 30
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Area: 15
+    Duration: 60

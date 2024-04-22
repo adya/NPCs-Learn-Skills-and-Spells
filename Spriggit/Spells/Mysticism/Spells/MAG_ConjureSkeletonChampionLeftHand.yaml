@@ -1,0 +1,23 @@
+FormKey: 000912:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ConjureSkeletonChampionLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Skeleton Champion
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 639
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BE:Skyrim.esm
+Effects:
+- BaseEffect: 41864B:MysticismMagic.esp
+  Data:
+    Duration: 60

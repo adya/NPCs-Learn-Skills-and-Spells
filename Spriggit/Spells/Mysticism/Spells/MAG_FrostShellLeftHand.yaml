@@ -1,0 +1,25 @@
+FormKey: 0008BB:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_FrostShellLeftHand
+Name:
+  TargetLanguage: English
+  Value: Frost Shell
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 255
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44B8:Skyrim.esm
+Effects:
+- BaseEffect: 292667:MysticismMagic.esp
+  Data:
+    Magnitude: 50
+    Duration: 60
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 60

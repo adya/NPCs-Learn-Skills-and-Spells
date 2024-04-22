@@ -1,0 +1,23 @@
+FormKey: 000838:NPCs Learn Natura Spells.esp
+EditorID: NAT_LocustInvasionRightHand
+Name:
+  TargetLanguage: English
+  Value: Locust Invasion
+MenuDisplayObject: 0008FB:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 426
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44CA:Skyrim.esm
+Effects:
+- BaseEffect: 000D40:Natura.esp
+  Data:
+    Magnitude: 8
+    Area: 20
+    Duration: 10

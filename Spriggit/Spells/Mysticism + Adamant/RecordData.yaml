@@ -1,0 +1,25 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.16.0
+ModKey: NPCs Learn Mysticism Spells - Adamant patch.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    NumRecords: 105
+    NextFormID: 2050
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0
+  - Master: MysticismMagic.esp
+    FileSize: 0
+  - Master: Adamant.esp
+    FileSize: 0
+  - Master: NPCs Learn Mysticism Spells.esp
+    FileSize: 0

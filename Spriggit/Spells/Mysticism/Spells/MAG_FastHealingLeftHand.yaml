@@ -1,0 +1,24 @@
+FormKey: 07231C:Skyrim.esm
+EditorID: MAG_FastHealingLeftHand
+Name:
+  TargetLanguage: English
+  Value: Fast Healing
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 38
+Flags:
+- ManualCostCalc
+CastType: Concentration
+HalfCostPerk: 0C44C7:Skyrim.esm
+Effects:
+- BaseEffect: 2508D2:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 1
+- BaseEffect: 04250D:Skyrim.esm
+  Data:
+    Magnitude: 20
+    Duration: 1

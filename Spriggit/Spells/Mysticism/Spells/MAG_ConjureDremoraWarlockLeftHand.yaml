@@ -1,0 +1,23 @@
+FormKey: 0008FB:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ConjureDremoraWarlockLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Dremora Warlock
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 378
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 427959:MysticismMagic.esp
+  Data:
+    Duration: 60

@@ -1,0 +1,22 @@
+FormKey: 000800:NPCs Learn Spells.esl
+EditorID: NLSS_FakeBuffEffectFFSelf
+Name:
+  TargetLanguage: English
+  Value: Fake Beneficial Effect
+MenuDisplayObject: 109AC2:Skyrim.esm
+Flags:
+- Recover
+- NoHitEvent
+- NoArea
+- HideInUI
+- PowerAffectsDuration
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: DamageResist
+CastType: FireAndForget
+SkillUsageMultiplier: 1
+DualCastScale: 1
+Description:
+  TargetLanguage: English
+  Value: Effect that is used to make NPCs recognize other beneficial spells as usable.

@@ -1,0 +1,48 @@
+FormKey: 00086A:NPCs Learn Odin Spells.esp
+EditorID: ODN_Ill_Antimage4_Effect_PurgeMagic_ForNPC
+VirtualMachineAdapter:
+  Scripts:
+  - Name: ODN_Dispel_ForNPC_Script
+Name:
+  TargetLanguage: English
+  Value: Purge Magic
+MenuDisplayObject: 00856C:Odin - Skyrim Magic Overhaul.esp
+Flags:
+- Hostile
+- Detrimental
+- NoDuration
+- NoRecast
+- PowerAffectsMagnitude
+BaseCost: 0.25
+MagicSkill: Illusion
+ResistValue: ResistMagic
+CastingLight: 127A43:Odin - Skyrim Magic Overhaul.esp
+HitShader: 032724:Odin - Skyrim Magic Overhaul.esp
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+SecondActorValueWeight: 1
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: LeftItemCharge
+  Type: DualValueModifier
+Projectile: 11D196:Odin - Skyrim Magic Overhaul.esp
+CastType: FireAndForget
+TargetType: Aimed
+SecondActorValue: RightItemCharge
+CastingArt: 127A42:Odin - Skyrim Magic Overhaul.esp
+HitEffectArt: 2C16A8:Odin - Skyrim Magic Overhaul.esp
+ImpactData: 128510:Odin - Skyrim Magic Overhaul.esp
+SkillUsageMultiplier: 1
+DualCastScale: 1.1
+CastingSoundLevel: Normal
+Sounds:
+- Sound: 07BBAB:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Ready
+  Sound: 03C8FA:Skyrim.esm
+- Type: Release
+  Sound: 000D65:Odin - Skyrim Magic Overhaul.esp
+Description:
+  TargetLanguage: English
+  Value: Breaks wards, dispels all spells from the target and drains <mag> points of charge from their equipped weapons.

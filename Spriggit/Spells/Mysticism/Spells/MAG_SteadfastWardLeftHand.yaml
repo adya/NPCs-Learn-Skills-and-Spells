@@ -1,0 +1,22 @@
+FormKey: 07231A:Skyrim.esm
+EditorID: MAG_SteadfastWardLeftHand
+Name:
+  TargetLanguage: English
+  Value: Steadfast Ward
+MenuDisplayObject: 0A0E7E:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 28
+Flags:
+- ManualCostCalc
+CastType: Concentration
+HalfCostPerk: 0C44C7:Skyrim.esm
+Effects:
+- BaseEffect: 05AD60:Skyrim.esm
+  Data:
+    Magnitude: 60
+- BaseEffect: 0FCC62:Skyrim.esm
+  Data:
+    Magnitude: 200

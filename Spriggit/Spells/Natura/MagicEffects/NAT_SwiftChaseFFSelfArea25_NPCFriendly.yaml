@@ -1,0 +1,56 @@
+FormKey: 000878:NPCs Learn Natura Spells.esp
+EditorID: NAT_SwiftChaseFFSelfArea25_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Swift Chase
+MenuDisplayObject: 000BC9:Natura.esp
+Keywords:
+- 000BD1:Natura.esp
+Flags:
+- Recover
+- DispelWithKeywords
+- FXPersist
+- PowerAffectsDuration
+BaseCost: 15
+MagicSkill: Illusion
+CastingLight: 000F8A:Natura.esp
+TaperWeight: 1
+HitShader: 000BCF:Natura.esp
+MinimumSkillLevel: 25
+SpellmakingArea: 50
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: SpeedMult
+Explosion: 000BC8:Natura.esp
+CastType: FireAndForget
+CastingArt: 000BCA:Natura.esp
+HitEffectArt: 000BCD:Natura.esp
+SkillUsageMultiplier: 0.5
+DualCastScale: 1
+Sounds:
+- Sound: 07BBAB:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Ready
+  Sound: 07C720:Skyrim.esm
+- Type: Release
+  Sound: 08196D:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Nearby allies move 25% faster for <dur> seconds.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetShouldAttackConditionData
+    TargetNpc: 000014:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsHostileToActorConditionData
+    TargetNpc: 000014:Skyrim.esm
+  ComparisonValue: 1

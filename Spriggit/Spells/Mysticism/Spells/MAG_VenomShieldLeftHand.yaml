@@ -1,0 +1,25 @@
+FormKey: 0008BE:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_VenomShieldLeftHand
+Name:
+  TargetLanguage: English
+  Value: Venom Shield
+MenuDisplayObject: 90F67F:MysticismMagic.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 645
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44BA:Skyrim.esm
+Effects:
+- BaseEffect: 292670:MysticismMagic.esp
+  Data:
+    Magnitude: 75
+    Duration: 60
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 60

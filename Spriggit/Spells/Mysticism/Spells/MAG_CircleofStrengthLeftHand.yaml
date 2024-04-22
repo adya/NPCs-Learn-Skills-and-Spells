@@ -1,0 +1,66 @@
+FormKey: 00086A:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_CircleofStrengthLeftHand
+Name:
+  TargetLanguage: English
+  Value: Circle of Strength
+MenuDisplayObject: F2704D:MysticismMagic.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 246
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: F21F45:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F21F42:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F21F46:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F21F47:MysticismMagic.esp
+  Data:
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F21F3A:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F21F48:MysticismMagic.esp
+  Data:
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F21F3A:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3B49C:MysticismMagic.esp
+  Data:
+    Area: 50
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetShouldAttackConditionData
+      TargetNpc: 000014:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F21F3A:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: 070315:MysticismMagic.esp
+  Data:
+    Duration: 240

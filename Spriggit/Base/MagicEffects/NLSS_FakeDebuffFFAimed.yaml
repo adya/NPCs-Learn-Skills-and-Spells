@@ -1,0 +1,23 @@
+FormKey: 000801:NPCs Learn Spells.esl
+EditorID: NLSS_FakeDebuffFFAimed
+Name:
+  TargetLanguage: English
+  Value: Fake Detrimental Effect
+MenuDisplayObject: 0435A5:Skyrim.esm
+Flags:
+- Hostile
+- Recover
+- Detrimental
+- NoHitEvent
+- NoArea
+- HideInUI
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Stagger
+CastType: FireAndForget
+TargetType: Aimed
+SkillUsageMultiplier: 1
+DualCastScale: 1
+Description:
+  TargetLanguage: English
+  Value: 'Effect that is used to make NPCs recognize other detrimental spells as usable. NOTE: Only one debuff spell will be casted at a time.'

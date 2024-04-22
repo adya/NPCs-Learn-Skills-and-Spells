@@ -1,0 +1,19 @@
+FormKey: 00086D:NPCs Learn Odin Spells.esp
+EditorID: DLC1SunFireRightHand
+Name:
+  TargetLanguage: English
+  Value: Sun Fire
+MenuDisplayObject: 018F02:Dawnguard.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 24
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C7:Skyrim.esm
+Effects:
+- BaseEffect: 003F50:Dawnguard.esm
+  Data:
+    Magnitude: 25

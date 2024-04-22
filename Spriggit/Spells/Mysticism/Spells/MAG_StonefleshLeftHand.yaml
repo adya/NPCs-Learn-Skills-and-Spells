@@ -1,0 +1,84 @@
+FormKey: 072316:Skyrim.esm
+EditorID: MAG_StonefleshLeftHand
+Name:
+  TargetLanguage: English
+  Value: Stoneflesh
+MenuDisplayObject: 109AC2:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 181
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44B7:Skyrim.esm
+Effects:
+- BaseEffect: 059B7A:Skyrim.esm
+  Data:
+    Magnitude: 80
+    Duration: 60
+- BaseEffect: 104AB5:Skyrim.esm
+  Data:
+    Magnitude: 80
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D7999:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06BBD3:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06BBD2:Skyrim.esm
+- BaseEffect: 104ABA:Skyrim.esm
+  Data:
+    Magnitude: 40
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D799A:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06BBD3:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06BBD2:Skyrim.esm
+- BaseEffect: 104AB9:Skyrim.esm
+  Data:
+    Magnitude: 40
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D799B:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06BBD3:Skyrim.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 06BBD2:Skyrim.esm

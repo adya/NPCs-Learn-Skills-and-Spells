@@ -1,0 +1,24 @@
+FormKey: 000905:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_FlamingFamiliarLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Flaming Familiar
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Summons a flaming familiar which will charge into battle and explode.
+BaseCost: 173
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+- NoDualCastModification
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 100
+HalfCostPerk: 0C44BC:Skyrim.esm
+Effects:
+- BaseEffect: 106E35:Skyrim.esm
+  Data:
+    Duration: 6

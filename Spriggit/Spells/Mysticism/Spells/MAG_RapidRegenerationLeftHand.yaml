@@ -1,0 +1,29 @@
+FormKey: 000867:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_RapidRegenerationLeftHand
+Name:
+  TargetLanguage: English
+  Value: Rapid Regeneration
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 245
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 9A74C8:MysticismMagic.esp
+  Data:
+    Magnitude: 3
+    Duration: 120
+- BaseEffect: CA3E2A:MysticismMagic.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 120
+- BaseEffect: 63142C:MysticismMagic.esp
+  Data:
+    Magnitude: 50
+    Duration: 120

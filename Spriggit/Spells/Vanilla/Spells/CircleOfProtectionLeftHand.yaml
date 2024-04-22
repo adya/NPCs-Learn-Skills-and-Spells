@@ -1,0 +1,23 @@
+FormKey: 00080B:NPCs Learn Vanilla Spells.esp
+EditorID: CircleOfProtectionLeftHand
+Name:
+  TargetLanguage: English
+  Value: Circle of Protection
+MenuDisplayObject: 1097CA:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 171
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 05312C:Skyrim.esm
+  Data:
+    Magnitude: 20
+    Duration: 30
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30

@@ -1,0 +1,55 @@
+FormKey: 072318:Skyrim.esm
+EditorID: MAG_EbonyfleshLeftHand
+Name:
+  TargetLanguage: English
+  Value: Ebonyflesh
+MenuDisplayObject: 109AC2:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 370
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44B9:Skyrim.esm
+Effects:
+- BaseEffect: 059B7C:Skyrim.esm
+  Data:
+    Magnitude: 160
+    Duration: 120
+- BaseEffect: 104AB5:Skyrim.esm
+  Data:
+    Magnitude: 80
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 0A8657:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D7999:Skyrim.esm
+    ComparisonValue: 1
+- BaseEffect: 104ABA:Skyrim.esm
+  Data:
+    Magnitude: 80
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      Keyword: 0A8657:Skyrim.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      Perk: 0D799A:Skyrim.esm
+    ComparisonValue: 1

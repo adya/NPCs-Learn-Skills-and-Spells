@@ -1,0 +1,22 @@
+FormKey: 000878:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Poison4_Spell_ToxicCloudRightHand
+Name:
+  TargetLanguage: English
+  Value: Toxic Cloud
+MenuDisplayObject: 24CD90:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 408
+Flags:
+- AreaEffectIgnoresLOS
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 247C85:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 6
+    Duration: 30

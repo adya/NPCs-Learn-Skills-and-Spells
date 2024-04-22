@@ -1,0 +1,27 @@
+FormKey: 0008F7:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_BoundWarAxeRightHand
+Name:
+  TargetLanguage: English
+  Value: Bound War Axe
+MenuDisplayObject: 10AB43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 137
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44BB:Skyrim.esm
+Effects:
+- BaseEffect: DD3BEC:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: E1590E:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: D2C7FD:Adamant.esp
+  Data:
+    Duration: 120

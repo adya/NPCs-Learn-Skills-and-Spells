@@ -1,0 +1,29 @@
+FormKey: 0008B3:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_WindwalkerLeftHand
+Name:
+  TargetLanguage: English
+  Value: Windwalker
+MenuDisplayObject: 027C31:Dragonborn.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 165
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44B7:Skyrim.esm
+Effects:
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 60
+- BaseEffect: 7D071A:MysticismMagic.esp
+  Data:
+    Magnitude: 10
+    Duration: 60
+- BaseEffect: BF2A2A:MysticismMagic.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 60

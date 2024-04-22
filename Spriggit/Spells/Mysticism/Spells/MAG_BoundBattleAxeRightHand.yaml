@@ -1,0 +1,23 @@
+FormKey: 00090B:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_BoundBattleAxeRightHand
+Name:
+  TargetLanguage: English
+  Value: Bound Battleaxe
+MenuDisplayObject: 10AB43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 227
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44BC:Skyrim.esm
+Effects:
+- BaseEffect: 01CE9E:Skyrim.esm
+  Data:
+    Duration: 120
+- BaseEffect: 0424FF:Skyrim.esm
+  Data:
+    Duration: 120

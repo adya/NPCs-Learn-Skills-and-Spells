@@ -1,0 +1,27 @@
+FormKey: 0C96A0:Skyrim.esm
+EditorID: MAG_BoundSwordRightHand
+Name:
+  TargetLanguage: English
+  Value: Bound Sword
+MenuDisplayObject: 10AB43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 135
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44BB:Skyrim.esm
+Effects:
+- BaseEffect: 0BA30F:Skyrim.esm
+  Data:
+    Duration: 120
+- BaseEffect: 0424FA:Skyrim.esm
+  Data:
+    Duration: 120
+- BaseEffect: D2C7FC:Adamant.esp
+  Data:
+    Duration: 120

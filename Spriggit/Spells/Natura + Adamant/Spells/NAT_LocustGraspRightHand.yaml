@@ -1,0 +1,88 @@
+FormKey: 000832:NPCs Learn Natura Spells.esp
+EditorID: NAT_LocustGraspRightHand
+Name:
+  TargetLanguage: English
+  Value: Locust Grasp
+MenuDisplayObject: 0008FB:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 272
+Flags:
+- ManualCostCalc
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 000C1C:Natura.esp
+  Data:
+    Magnitude: 9
+    Area: 3
+    Duration: 10
+- BaseEffect: D1D4C8:Adamant.esp
+  Data:
+    Magnitude: 4.5
+    Area: 3
+    Duration: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.5
+- BaseEffect: D1D4C9:Adamant.esp
+  Data:
+    Magnitude: 9
+    Area: 3
+    Duration: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.5
+- BaseEffect: D1D4CB:Adamant.esp
+  Data:
+    Magnitude: 4.5
+    Area: 3
+    Duration: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.5
+- BaseEffect: D1D4CC:Adamant.esp
+  Data:
+    Magnitude: 6.75
+    Area: 3
+    Duration: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.5
+- BaseEffect: D1D4CD:Adamant.esp
+  Data:
+    Magnitude: 9
+    Area: 3
+    Duration: 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetActorValuePercentConditionData
+      ActorValue: Health
+    ComparisonValue: 0.5

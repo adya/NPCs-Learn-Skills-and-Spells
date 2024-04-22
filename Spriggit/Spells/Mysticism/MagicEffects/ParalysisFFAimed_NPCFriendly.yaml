@@ -1,0 +1,56 @@
+FormKey: 000850:NPCs Learn Mysticism Spells.esp
+EditorID: ParalysisFFAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Paralyze
+MenuDisplayObject: 10A046:Skyrim.esm
+Keywords:
+- 01EA70:Skyrim.esm
+Flags:
+- Hostile
+- Recover
+- NoMagnitude
+- FXPersist
+- PowerAffectsDuration
+BaseCost: 450
+MagicSkill: Alteration
+CastingLight: 06EBCC:Skyrim.esm
+TaperWeight: 1
+HitShader: 06DE84:Skyrim.esm
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+TaperDuration: 5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Paralysis
+  Type: Paralysis
+Projectile: 06EBC8:Skyrim.esm
+CastType: FireAndForget
+TargetType: Aimed
+CastingArt: 06DE85:Skyrim.esm
+HitEffectArt: 06DE86:Skyrim.esm
+SkillUsageMultiplier: 1
+DualCastScale: 1
+Sounds:
+- Sound: 07BBAB:Skyrim.esm
+- Type: Charge
+  Sound: 06F6D3:Skyrim.esm
+- Type: Ready
+  Sound: 07C720:Skyrim.esm
+- Type: Release
+  Sound: 08196D:Skyrim.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 035D59:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 0F23C5:Skyrim.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetRestrainedConditionData

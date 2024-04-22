@@ -1,0 +1,44 @@
+FormKey: 000859:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_FireDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Fire Barrier
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- 01CEAD:Skyrim.esm
+- 0A9B1F:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- GoryVisuals
+- NoRecast
+- PowerAffectsMagnitude
+BaseCost: 3.54
+MagicSkill: Destruction
+ResistValue: ResistFire
+CastingLight: 0140EC:Skyrim.esm
+HitShader: 01B212:Skyrim.esm
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 012FCF:Skyrim.esm
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 01B211:Skyrim.esm
+ImpactData: 08F3F0:Skyrim.esm
+SkillUsageMultiplier: 1.5
+DualCastArt: 0B66B0:MysticismMagic.esp
+DualCastScale: 1
+Sounds:
+- Sound: 03C8F8:Skyrim.esm
+- Type: Release
+  Sound: 03F2EA:Skyrim.esm
+- Type: ConcentrationCastLoop
+  Sound: 03E5E4:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Fire damage per second. Targets on fire take extra damage over time.

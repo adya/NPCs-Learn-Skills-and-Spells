@@ -1,0 +1,25 @@
+FormKey: 00085E:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_CloseWoundsLeftHand
+Name:
+  TargetLanguage: English
+  Value: Close Wounds
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 68
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C7:Skyrim.esm
+Effects:
+- BaseEffect: 515B96:MysticismMagic.esp
+  Data:
+    Magnitude: 40
+    Duration: 1
+- BaseEffect: AD7190:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 1

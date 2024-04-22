@@ -1,0 +1,23 @@
+FormKey: 0008FC:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ConjureSkeletonWarriorLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Skeleton Warrior
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 389
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 40933B:MysticismMagic.esp
+  Data:
+    Duration: 60

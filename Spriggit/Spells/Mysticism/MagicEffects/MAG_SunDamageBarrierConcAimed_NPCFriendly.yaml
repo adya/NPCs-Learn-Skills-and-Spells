@@ -1,0 +1,86 @@
+FormKey: 00087C:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_SunDamageBarrierConcAimed_NPCFriendly
+VirtualMachineAdapter:
+  Scripts:
+  - Name: magiceffectshaderapply
+    Properties:
+    - MutagenObjectType: ScriptBoolProperty
+      Name: bUseDuration
+      Data: True
+    - MutagenObjectType: ScriptObjectProperty
+      Name: EffectShaderFX
+      Object: 019C9E:Dawnguard.esm
+Name:
+  TargetLanguage: English
+  Value: Wall of Sunfire
+MenuDisplayObject: 018F02:Dawnguard.esm
+Keywords:
+- ADA002:Update.esm
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- NoRecast
+- PowerAffectsMagnitude
+- NoDeathDispel
+BaseCost: 3
+MagicSkill: Restoration
+CastingLight: 03F1B5:Skyrim.esm
+TaperWeight: 0.3
+HitShader: 00A3BB:Dawnguard.esm
+MinimumSkillLevel: 75
+TaperCurve: 2
+TaperDuration: 2
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 7388D4:MysticismMagic.esp
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 00A3BD:Dawnguard.esm
+ImpactData: 9C5AEA:MysticismMagic.esp
+SkillUsageMultiplier: 1
+DualCastArt: A11A41:MysticismMagic.esp
+DualCastScale: 1.1
+CastingSoundLevel: Silent
+Sounds:
+- Sound: 03C8F8:Skyrim.esm
+- Type: ConcentrationCastLoop
+  Sound: 03E958:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> damage per second to the undead. Targets on fire take extra damage over time.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Target
+    Perk: 616110:Update.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 028FDE:Dragonborn.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasKeywordConditionData
+    Keyword: 013796:Skyrim.esm
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: IsUndeadConditionData
+  ComparisonValue: 1

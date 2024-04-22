@@ -1,0 +1,42 @@
+FormKey: 000868:NPCs Learn Natura Spells.esp
+EditorID: NAT_StoneDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Stone Barrier
+MenuDisplayObject: 0435A5:Skyrim.esm
+Keywords:
+- EA6002:Update.esm
+- 000B35:Natura.esp
+- 000E51:Natura.esp
+Flags:
+- Hostile
+- Detrimental
+- NoArea
+- FXPersist
+- GoryVisuals
+- NoRecast
+- PowerAffectsMagnitude
+BaseCost: 3.54
+MagicSkill: Destruction
+CastingLight: 000F87:Natura.esp
+HitShader: 000B14:Natura.esp
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 000AAF:Natura.esp
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 000AB0:Natura.esp
+ImpactData: 000DAF:Natura.esp
+SkillUsageMultiplier: 1.5
+DualCastArt: 000DCC:Natura.esp
+DualCastScale: 1
+Sounds:
+- Sound: 03F37A:Skyrim.esm
+- Type: ConcentrationCastLoop
+  Sound: 000B01:Natura.esp
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Bleeding damage per second. Bleeding targets take extra damage over time.

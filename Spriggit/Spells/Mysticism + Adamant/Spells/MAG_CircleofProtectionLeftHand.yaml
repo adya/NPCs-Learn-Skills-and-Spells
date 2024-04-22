@@ -1,0 +1,44 @@
+FormKey: 00089E:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_CircleofProtectionLeftHand
+Name:
+  TargetLanguage: English
+  Value: Circle of Protection
+MenuDisplayObject: 1097CA:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 427
+Flags:
+- ManualCostCalc
+- AreaEffectIgnoresLOS
+- IgnoreResistance
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 05312C:Skyrim.esm
+  Data:
+    Magnitude: 20
+    Duration: 30
+- BaseEffect: 3D6894:MysticismMagic.esp
+  Data:
+    Magnitude: 20
+    Duration: 30
+- BaseEffect: CC2438:MysticismMagic.esp
+  Data:
+    Magnitude: 0.01
+    Duration: 30
+- BaseEffect: D36A03:Adamant.esp
+  Data:
+    Magnitude: 4
+    Area: 50
+    Duration: 30
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: 04E80B:Skyrim.esm
+    ComparisonValue: 1

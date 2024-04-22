@@ -1,0 +1,21 @@
+FormKey: 000873:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Turn3_Spell_HallowedStrikesLeftHand
+Name:
+  TargetLanguage: English
+  Value: Hallowed Strikes
+MenuDisplayObject: 1097CA:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 211
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 251EC2:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 15
+    Duration: 60

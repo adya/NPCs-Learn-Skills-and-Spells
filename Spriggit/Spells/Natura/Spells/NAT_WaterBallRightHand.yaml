@@ -1,0 +1,36 @@
+FormKey: 00084E:NPCs Learn Natura Spells.esp
+EditorID: NAT_WaterBallRightHand
+Name:
+  TargetLanguage: English
+  Value: Water Ball
+MenuDisplayObject: 000B1E:Natura.esp
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 145
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 000B26:Natura.esp
+  Data:
+    Magnitude: 40
+    Area: 15
+    Duration: 1
+- BaseEffect: 0153D3:Skyrim.esm
+  Data:
+    Magnitude: 0.25
+    Area: 15
+    Duration: 1
+- BaseEffect: 000CEA:Natura.esp
+  Data:
+    Area: 15
+    Duration: 10
+- BaseEffect: 000CFC:Natura.esp
+  Data:
+    Area: 15
+    Duration: 10

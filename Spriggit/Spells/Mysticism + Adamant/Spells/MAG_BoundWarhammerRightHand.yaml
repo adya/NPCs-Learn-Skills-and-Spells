@@ -1,0 +1,26 @@
+FormKey: 00090C:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_BoundWarhammerRightHand
+Name:
+  TargetLanguage: English
+  Value: Bound Warhammer
+MenuDisplayObject: 10AB43:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 229
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44BC:Skyrim.esm
+Effects:
+- BaseEffect: DED0F5:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: E15911:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: D2C800:Adamant.esp
+  Data:
+    Duration: 120

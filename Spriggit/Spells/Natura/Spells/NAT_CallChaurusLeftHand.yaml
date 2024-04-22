@@ -1,0 +1,23 @@
+FormKey: 000810:NPCs Learn Natura Spells.esp
+EditorID: NAT_CallChaurusLeftHand
+Name:
+  TargetLanguage: English
+  Value: Call Chaurus
+MenuDisplayObject: 00094B:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 255
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BC:Skyrim.esm
+Effects:
+- BaseEffect: 00096C:Natura.esp
+  Data:
+    Duration: 60

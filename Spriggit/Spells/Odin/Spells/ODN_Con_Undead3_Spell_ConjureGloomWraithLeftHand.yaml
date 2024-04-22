@@ -1,0 +1,22 @@
+FormKey: 000818:NPCs Learn Odin Spells.esp
+EditorID: ODN_Con_Undead3_Spell_ConjureGloomWraithLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure Gloom Wraith
+MenuDisplayObject: 11F238:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 251
+Flags:
+- NoAbsorbOrReflect
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BC:Skyrim.esm
+Effects:
+- BaseEffect: 1916AE:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Duration: 60

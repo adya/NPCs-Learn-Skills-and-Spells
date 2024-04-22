@@ -1,0 +1,42 @@
+FormKey: 00085A:NPCs Learn Odin Spells.esp
+EditorID: ODN_Ill_Antimage4_Spell_WizardRendLeftHand
+Name:
+  TargetLanguage: English
+  Value: Wizard Rend
+MenuDisplayObject: 11D198:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 346
+Flags:
+- AreaEffectIgnoresLOS
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C5:Skyrim.esm
+Effects:
+- BaseEffect: 2C169D:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 25
+    Duration: 30
+- BaseEffect: 2C16AA:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 12.5
+    Duration: 30
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetActorValueConditionData
+      ActorValue: Magicka
+    ComparisonValue: 1
+- BaseEffect: 2C16AB:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 1000
+    Duration: 30
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 60

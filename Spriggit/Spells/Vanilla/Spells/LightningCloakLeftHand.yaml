@@ -1,0 +1,25 @@
+FormKey: 0400AD:Skyrim.esm
+EditorID: LightningCloakLeftHand
+Name:
+  TargetLanguage: English
+  Value: Lightning Cloak
+MenuDisplayObject: 09FA64:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 370
+ChargeTime: 0.5
+CastType: FireAndForget
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 03AEA1:Skyrim.esm
+  Data:
+    Magnitude: 10
+    Duration: 60
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: NotEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: IsInCombatConditionData

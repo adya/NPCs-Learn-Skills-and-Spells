@@ -1,0 +1,23 @@
+FormKey: 000814:NPCs Learn Natura Spells.esp
+EditorID: NAT_CallBearLeftHand
+Name:
+  TargetLanguage: English
+  Value: Call Bear
+MenuDisplayObject: 00094B:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 367
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 24
+HalfCostPerk: 0C44BD:Skyrim.esm
+Effects:
+- BaseEffect: 00096F:Natura.esp
+  Data:
+    Duration: 60

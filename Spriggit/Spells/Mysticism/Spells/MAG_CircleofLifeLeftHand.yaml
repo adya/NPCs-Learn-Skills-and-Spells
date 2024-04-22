@@ -1,0 +1,85 @@
+FormKey: 000868:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_CircleofLifeLeftHand
+Name:
+  TargetLanguage: English
+  Value: Circle of Life
+MenuDisplayObject: 0A0E7D:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 249
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: F36378:MysticismMagic.esp
+  Data:
+    Magnitude: 10
+    Duration: 120
+- BaseEffect: F36372:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F3637A:MysticismMagic.esp
+  Data:
+    Duration: 120
+- BaseEffect: F3637B:MysticismMagic.esp
+  Data:
+    Magnitude: 10
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3636E:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3637C:MysticismMagic.esp
+  Data:
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3636E:MysticismMagic.esp
+    ComparisonValue: 1
+- BaseEffect: F3B497:MysticismMagic.esp
+  Data:
+    Magnitude: 10
+    Area: 50
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3636E:MysticismMagic.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetShouldAttackConditionData
+      TargetNpc: 000014:Skyrim.esm
+- BaseEffect: F3B498:MysticismMagic.esp
+  Data:
+    Area: 50
+    Duration: 120
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectConditionData
+      MagicEffect: F3636E:MysticismMagic.esp
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetShouldAttackConditionData
+      TargetNpc: 000014:Skyrim.esm
+- BaseEffect: 061011:MysticismMagic.esp
+  Data:
+    Duration: 240

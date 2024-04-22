@@ -1,0 +1,23 @@
+FormKey: 000917:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_ConjureHighSeekerLeftHand
+Name:
+  TargetLanguage: English
+  Value: Conjure High Seeker
+MenuDisplayObject: 0A6459:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 645
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetLocation
+Range: 50
+HalfCostPerk: 0C44BE:Skyrim.esm
+Effects:
+- BaseEffect: 45538A:MysticismMagic.esp
+  Data:
+    Duration: 60

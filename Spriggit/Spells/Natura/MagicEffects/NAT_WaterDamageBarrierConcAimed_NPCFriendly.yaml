@@ -1,0 +1,47 @@
+FormKey: 000869:NPCs Learn Natura Spells.esp
+EditorID: NAT_WaterDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Water Barrier
+MenuDisplayObject: 000B1E:Natura.esp
+Keywords:
+- EA6002:Update.esm
+- 000B34:Natura.esp
+- 000E58:Natura.esp
+Flags:
+- Hostile
+- Detrimental
+- SnapToNavmesh
+- NoArea
+- FXPersist
+- NoDeathDispel
+BaseCost: 3.325
+MagicSkill: Destruction
+CastingLight: 000F88:Natura.esp
+HitShader: 000B41:Natura.esp
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 000B23:Natura.esp
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 000B1D:Natura.esp
+ImpactData: 000DB0:Natura.esp
+SkillUsageMultiplier: 1.5
+DualCastArt: 000DCD:Natura.esp
+DualCastScale: 1
+Sounds:
+- Sound: 000B51:Natura.esp
+- Type: ConcentrationCastLoop
+  Sound: 000B5A:Natura.esp
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Water damage and can not regenerate magicka and stamina for a short time
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsRaceConditionData
+    Race: 000CA3:Natura.esp

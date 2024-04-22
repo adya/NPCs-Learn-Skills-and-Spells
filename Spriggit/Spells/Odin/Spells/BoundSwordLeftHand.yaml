@@ -1,0 +1,17 @@
+FormKey: 0F9615:Skyrim.esm
+EditorID: BoundSwordLeftHand
+Name:
+  TargetLanguage: English
+  Value: Bound Sword
+MenuDisplayObject: 10AB43:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 92
+CastType: FireAndForget
+HalfCostPerk: 0F2CA7:Skyrim.esm
+Effects:
+- BaseEffect: 0BA30F:Skyrim.esm
+  Data:
+    Duration: 300

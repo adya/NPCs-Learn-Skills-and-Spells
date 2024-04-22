@@ -1,0 +1,22 @@
+FormKey: 000805:NPCs Learn Odin Spells.esp
+EditorID: ODN_Alt_Ash3_Spell_AshShellLeftHand
+Name:
+  TargetLanguage: English
+  Value: Ash Shell
+MenuDisplayObject: 027BF9:Dragonborn.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 251
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44B8:Skyrim.esm
+Effects:
+- BaseEffect: 017732:Dragonborn.esm
+  Data:
+    Duration: 3
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 30

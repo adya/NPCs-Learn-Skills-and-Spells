@@ -1,0 +1,22 @@
+FormKey: 000870:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Sun3_Spell_VampiresBaneRightHand
+Name:
+  TargetLanguage: English
+  Value: Vampire's Bane
+MenuDisplayObject: 018F02:Dawnguard.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 72
+Flags:
+- AreaEffectIgnoresLOS
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 00844B:Dawnguard.esm
+  Data:
+    Magnitude: 40
+    Area: 15

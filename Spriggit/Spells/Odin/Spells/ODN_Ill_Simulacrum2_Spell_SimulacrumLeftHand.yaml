@@ -1,0 +1,30 @@
+FormKey: 000856:NPCs Learn Odin Spells.esp
+EditorID: ODN_Ill_Simulacrum2_Spell_SimulacrumLeftHand
+Name:
+  TargetLanguage: English
+  Value: Simulacrum
+MenuDisplayObject: 11CC26:Odin - Skyrim Magic Overhaul.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 78
+ChargeTime: 0.5
+CastType: FireAndForget
+TargetType: Aimed
+HalfCostPerk: 0C44C3:Skyrim.esm
+Effects:
+- BaseEffect: 2100E4:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 6
+- BaseEffect: 2100E5:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 6
+- BaseEffect: 000860:NPCs Learn Odin Spells.esp
+  Data:
+    Magnitude: 6
+    Duration: 15
+- BaseEffect: 000801:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 60

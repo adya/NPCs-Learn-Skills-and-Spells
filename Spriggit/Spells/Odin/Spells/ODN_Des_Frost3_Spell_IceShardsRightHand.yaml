@@ -1,0 +1,23 @@
+FormKey: 00083F:NPCs Learn Odin Spells.esp
+EditorID: ODN_Des_Frost3_Spell_IceShardsRightHand
+Name:
+  TargetLanguage: English
+  Value: Ice Shards
+MenuDisplayObject: 09DB72:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 94
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C0:Skyrim.esm
+Effects:
+- BaseEffect: 09C0A0:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 35
+    Duration: 1
+- BaseEffect: 0B729D:Skyrim.esm
+  Data:
+    Magnitude: 20
+    Duration: 3

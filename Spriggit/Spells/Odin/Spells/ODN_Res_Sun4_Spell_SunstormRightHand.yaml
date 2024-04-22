@@ -1,0 +1,21 @@
+FormKey: 000876:NPCs Learn Odin Spells.esp
+EditorID: ODN_Res_Sun4_Spell_SunstormRightHand
+Name:
+  TargetLanguage: English
+  Value: Sun Storm
+MenuDisplayObject: 018F02:Dawnguard.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 36
+Flags:
+- AreaEffectIgnoresLOS
+CastType: Concentration
+TargetType: Aimed
+HalfCostPerk: 0C44C9:Skyrim.esm
+Effects:
+- BaseEffect: 247C88:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 50
+    Duration: 1

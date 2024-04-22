@@ -1,0 +1,50 @@
+FormKey: 0008A7:NPCs Learn Mysticism Spells.esp
+EditorID: MAG_FrostDamageBarrierConcAimed_NPCFriendly
+Name:
+  TargetLanguage: English
+  Value: Frost Barrier
+MenuDisplayObject: 09DB72:Skyrim.esm
+Keywords:
+- 01CEAE:Skyrim.esm
+- 0A9B1F:Skyrim.esm
+Flags:
+- Hostile
+- Detrimental
+- SnapToNavmesh
+- NoArea
+- FXPersist
+- NoDeathDispel
+BaseCost: 3.325
+MagicSkill: Destruction
+ResistValue: ResistFrost
+CastingLight: 032DAA:Skyrim.esm
+HitShader: 01F03A:Skyrim.esm
+MinimumSkillLevel: 75
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: Health
+Projectile: 04BB46:Skyrim.esm
+CastType: Concentration
+TargetType: Aimed
+CastingArt: 020BF5:Skyrim.esm
+ImpactData: 08F3F6:Skyrim.esm
+SkillUsageMultiplier: 1.5
+DualCastArt: 0C08BD:MysticismMagic.esp
+DualCastScale: 1
+Sounds:
+- Sound: 03E5E3:Skyrim.esm
+- Type: Release
+  Sound: 03F2EB:Skyrim.esm
+- Type: ConcentrationCastLoop
+  Sound: 03E5CB:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: Creates a wall that deals <mag> Frost damage per second to Health and Stamina.
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetIsObjectTypeConditionData
+    FormType: Actor
+  ComparisonValue: 1

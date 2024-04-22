@@ -1,0 +1,26 @@
+FormKey: 011F35:Dawnguard.esm
+EditorID: MAG_RaiseZombieRightHand
+Name:
+  TargetLanguage: English
+  Value: Raise Zombie
+MenuDisplayObject: 1097CC:Skyrim.esm
+EquipmentType: 013F42:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 103
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+ChargeTime: 1
+CastType: FireAndForget
+TargetType: TargetActor
+HalfCostPerk: 0F2CA7:Skyrim.esm
+Effects:
+- BaseEffect: 016B4B:Skyrim.esm
+  Data:
+    Magnitude: 5
+    Duration: 120
+- BaseEffect: 10EAD9:Skyrim.esm
+  Data:
+    Duration: 120

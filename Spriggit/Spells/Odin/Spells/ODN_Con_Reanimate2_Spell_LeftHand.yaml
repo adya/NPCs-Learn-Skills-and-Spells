@@ -1,0 +1,24 @@
+FormKey: 0CAB65:Skyrim.esm
+EditorID: ODN_Con_Reanimate2_Spell_LeftHand
+Name:
+  TargetLanguage: English
+  Value: Reanimate Corpse
+MenuDisplayObject: 1097CC:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 151
+Flags:
+- NoAbsorbOrReflect
+CastType: FireAndForget
+TargetType: TargetActor
+HalfCostPerk: 0C44BB:Skyrim.esm
+Effects:
+- BaseEffect: 016C0F:Skyrim.esm
+  Data:
+    Magnitude: 13
+    Duration: 60
+- BaseEffect: 10EAD9:Skyrim.esm
+  Data:
+    Duration: 60

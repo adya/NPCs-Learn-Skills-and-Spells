@@ -1,0 +1,23 @@
+FormKey: 07231B:Skyrim.esm
+EditorID: ODN_Res_Ward3_Spell_LeftHand
+Name:
+  TargetLanguage: English
+  Value: Greater Ward
+MenuDisplayObject: 0A0E7E:Skyrim.esm
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 32
+Flags:
+- ManualCostCalc
+- NoAbsorbOrReflect
+CastType: Concentration
+HalfCostPerk: 0C44C8:Skyrim.esm
+Effects:
+- BaseEffect: 05AD61:Skyrim.esm
+  Data:
+    Magnitude: 250
+- BaseEffect: 2DFCDC:Odin - Skyrim Magic Overhaul.esp
+  Data:
+    Magnitude: 15

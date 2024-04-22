@@ -1,0 +1,30 @@
+FormKey: 000805:NPCs Learn Natura Spells.esp
+EditorID: NAT_SpikesLeftHand
+Name:
+  TargetLanguage: English
+  Value: Spikes
+Keywords:
+- 000E5C:Natura.esp
+MenuDisplayObject: 000871:Natura.esp
+EquipmentType: 013F43:Skyrim.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+BaseCost: 630
+Flags:
+- ManualCostCalc
+ChargeTime: 1
+CastType: FireAndForget
+HalfCostPerk: 0C44BA:Skyrim.esm
+Effects:
+- BaseEffect: 000864:Natura.esp
+  Data:
+    Magnitude: 100
+    Duration: 120
+- BaseEffect: 000800:NPCs Learn Spells.esl
+  Data:
+    Magnitude: 0.01
+    Duration: 120
+- BaseEffect: 000F8B:Natura.esp
+  Data:
+    Duration: 120
